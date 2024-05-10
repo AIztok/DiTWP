@@ -22,10 +22,11 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    // Component.MobileOnly(Component.Spacer()),
+    Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    //Component.DesktopOnly(Component.Explorer()),
+    Component.Explorer(),
   ],
   right: [
     Component.Graph(),
@@ -39,10 +40,11 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
-    // Component.MobileOnly(Component.Spacer()),
+    Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    //Component.DesktopOnly(Component.Explorer()),
+    Component.Explorer(),
   ],
   right: [],
 }
