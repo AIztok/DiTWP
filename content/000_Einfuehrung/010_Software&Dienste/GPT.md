@@ -1,0 +1,9 @@
+
+#GPT ist eine Reihe von KI-Modellen, die von OpenAI entwickelt wurden und auf der Transformer-Architektur basieren. GPT-Modelle sind sogenannte Large Language Models (LLMs), die darauf trainiert sind, menschenähnliche Texte zu generieren und komplexe Aufgaben zu lösen. Sie sind in der Lage, Informationen aus einer Vielzahl von Quellen zu verarbeiten und auf Basis dieser Informationen Texte zu erstellen, die kohärent, informativ und relevant sind.
+
+Die GPT-Modelle wurden in verschiedenen Versionen entwickelt, wobei jede Version Verbesserungen und Erweiterungen gegenüber den vorherigen Versionen aufweist. GPT-3, das im Juni 2020 veröffentlicht wurde, war ein bahnbrechendes Modell, das enorme Fortschritte in Bezug auf Qualität und Anwendbarkeit im Vergleich zu früheren Modellen erzielte. GPT-4, das im März 2023 veröffentlicht wurde, hat diese Entwicklung weiter vorangetrieben und bietet noch leistungsfähigere KI-Funktionen.
+
+Large Language Models (LLMs) sind KI-Modelle, die darauf ausgelegt sind, menschenähnliche Texte zu generieren und eine Vielzahl von Aufgaben zu lösen, indem sie den Kontext und die Bedeutung von natürlicher Sprache verstehen. LLMs wie GPT sind aufgrund ihrer Fähigkeit, die Komplexität der menschlichen Sprache zu erfassen, für eine Vielzahl von Anwendungen nützlich, einschließlich maschineller Übersetzung, Textzusammenfassung, Frage-Antwort-Systeme, Codegenerierung und vieles mehr.
+
+Die kontinuierliche Entwicklung von GPT-Modellen und anderen LLMs trägt dazu bei, die Möglichkeiten der KI in vielen Bereichen zu erweitern und die Art und Weise, wie wir mit Technologie arbeiten und kommunizieren, zu revolutionieren.
+
