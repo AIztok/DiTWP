@@ -1,4 +1,10 @@
-
+---
+title: 001_Ziele dieser LVA
+draft: false
+tags:
+  - DiTWP
+---
+ 
 
 Wie arbeite ich mit anderen Zusammen. Wie werden die Informationen:
 1. erhoben und strukturiert - 
