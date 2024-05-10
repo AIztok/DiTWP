@@ -1,3 +1,9 @@
+---
+title: 004_Tags
+draft: false
+tags: []
+---
+ 
 In den Unterlagen werden folgende Tags verwenden. Die Tags ermöglichen schnell in den Unterlagen das jeweilige Thema zu finden:
 
 | BESCHREIBUNG                           | TAG     |

@@ -1,5 +1,5 @@
 ---
-title: '"018_Obsidian'
+title: 018_Obsidian
 draft: false
 tags:
   - "#PKD"

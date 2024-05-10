@@ -1,3 +1,13 @@
+---
+title: 015_Blender & BlenderBIM
+draft: false
+tags:
+  - 3D
+  - BIM
+  - IFC
+---
+ 
+
 # Allgemein
 
 

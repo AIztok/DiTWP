@@ -1,7 +1,8 @@
 ---
-title: '"012_Rhino_3D'
+title: 012_Rhino_3D
 draft: false
-tags: []
+tags:
+  - 3D
 ---
  
 

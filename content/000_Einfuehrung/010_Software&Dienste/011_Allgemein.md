@@ -1,5 +1,5 @@
 ---
-title: '"011_Allgemein'
+title: 011_Allgemein
 draft: false
 tags:
   - "#DiTWP"
