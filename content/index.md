@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Digitale Tragwerksplanung
 ---
 
 This is a blank Quartz installation.
