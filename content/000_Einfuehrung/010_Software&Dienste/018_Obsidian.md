@@ -25,7 +25,7 @@ Durch die Verbindung mit Diensten wie Dropbox (in diesem Fall ist noch z.B. die 
 
 # Befehle / Funktionen
 
-Mehr über die Funktionen von Obisidian kann [hier](https://help.obsidian.md/Obsidian/Index) gelesen werden bzw. es gibt hier eine Sammlung von einfachen Befehlen für das Markdown Format [[142_Markdown (.md)]].
+Mehr über die Funktionen von Obsidian kann [hier](https://help.obsidian.md/Obsidian/Index) gelesen werden bzw. es gibt hier eine Sammlung von einfachen Befehlen für das Markdown Format [[142_Markdown]].
 
 
 
