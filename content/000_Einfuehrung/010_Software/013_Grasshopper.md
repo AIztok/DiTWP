@@ -12,6 +12,10 @@ tags:
 
 # Installation
 
+Grasshopper wird zusammen mit dem Rhino3D installiert.
+Grasshopper öffnen unter Werkzeuge/Grasshopper:
+
+![[Pasted image 20240511121920.png]]
 
 # Befehle
 
@@ -68,7 +72,23 @@ When the **Fancy Wires** option is enabled in the Grasshopper **Display** menu, 
 Zeigt den vollen Text statt nur Kurzbezeichnung.
 
 
+
+Kopieren
+
+Shift+Alt+ziehen
+
+
+
 Bake: 
+
+
+## Datenstruktur
+
+
+
+Datatree
+https://bimcorner.com/a-beginners-guide-to-data-trees-in-grasshopper/
+https://www.youtube.com/watch?v=uHXaEWQDV9w&ab_channel=LearnGrasshopper
 
 
 # Weitere Unterlagen

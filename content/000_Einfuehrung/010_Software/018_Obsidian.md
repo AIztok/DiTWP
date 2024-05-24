@@ -27,10 +27,6 @@ Durch die Verbindung mit Diensten wie Dropbox (in diesem Fall ist noch z.B. die 
 
 Mehr über die Funktionen von Obsidian kann [hier](https://help.obsidian.md/Obsidian/Index) gelesen werden bzw. es gibt hier eine Sammlung von einfachen Befehlen für das Markdown Format [[142_Markdown]].
 
-
-
-
-
 # Weitere Unterlagen
 
 Sehr umfassender Youtube-kanal zu Personal Knowledge Databases und Obsidian:
