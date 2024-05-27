@@ -17,7 +17,7 @@ Wie arbeite ich mit anderen Zusammen. Wie werden die Informationen:
 Dies wird anhand Bearbeitung eines Tragwerks 
 
 
-## 1. Erheben und Strukturieren
+# 1. Erheben und Strukturieren
 Es ist notwendig zu verstehen welche Informationen müssen für unsere Aufgabe erhoben bzw. erarbeitet werden.
 Einen Prozess zu definieren, wie die Tragwerksplanung, mit digitalen Hilfsmitteln, organisiert werden kann.
 
@@ -28,7 +28,7 @@ Projekt Know-How
 
 Idee: internet seite erstellen wo dieser Vault hinterlegt ist und man mit chat gpt redest über den inhalt.
 
-## 2. Teilen von Informationen
+# 2. Teilen von Informationen
 Die Informationen sollen an andere Beteiligte in solcher Form geteilt werden, damit die diese leicht weiterverwenden können.
 
 Schnittstellen
@@ -45,16 +45,21 @@ Formate erklären:
 Collaboration Platformen
 - Google colab https://colab.research.google.com/
 
-## 3. Informationen generieren und bearbeiten
+# 3. Informationen generieren und bearbeiten
 
 
 
-Mithilfe der Künstlichen Intelligenz bzw. maschinellen Lernens
+Was wird in der Vorlesung vermittelt:
 
 
 
 
-## 4. Informationen werden Realität
+Was wird in der Übung vermittelt:
+
+
+
+
+# 4. Informationen werden Realität
 
 
 
