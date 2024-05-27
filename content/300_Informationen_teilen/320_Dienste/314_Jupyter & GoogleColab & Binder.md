@@ -1,3 +1,9 @@
+---
+title: 314_Jupyter & GoogleColab & Binder
+draft: false
+tags:
+  - Python
+---
 # Allgemein
 
 Einzelne Beispiele die als Jupyter Notebooks vorbereitet sind werden auf Google Colab und Binder zur Verfügung gestellt. 

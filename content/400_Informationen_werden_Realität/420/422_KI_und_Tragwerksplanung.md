@@ -1,6 +1,9 @@
-
-
-
+---
+title: 422_KI_und_Tragwerksplanung
+draft: false
+tags: []
+---
+ 
 ## Die Entstehung von ChatGPT und GPT-4
 
 Der Kurs basiert auf den jüngsten Entwicklungen im Bereich der KI, insbesondere auf der Einführung von ChatGPT und GPT-4. ChatGPT wurde im Dezember 2022 öffentlich zugänglich gemacht, während GPT-4 im März 2023 zur Verfügung gestellt wurde. Kurz darauf wurden Plugins für ChatGPT veröffentlicht, die es noch einfacher machen, diese Technologie in verschiedenen Anwendungen zu nutzen. Im Jahr 2023 wurde zudem der Copilot von Microsoft Office 365 vorgestellt, eine KI-gestützte Lösung, die die Arbeitsweise von Ingenieuren weiter verändert.

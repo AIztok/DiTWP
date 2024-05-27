@@ -1,5 +1,5 @@
 ---
-title: 213_Online_3D_viewer
+title: 313_Online_3D_viewer
 draft: false
 tags:
   - 3D
@@ -9,7 +9,7 @@ tags:
 # Allgemein
 
 Der [3Dviewer.net](https://3dviewer.net/index.html) ermöglich es uns verschiedene Dateienformate in unseren Browser zu öffnen.
-Es werden verschiedene Formate ermöglicht, unter anderen .3dm (siehe [[012_Rhino_3D]]), .IFC (siehe [[145_IFC]]).
+Es werden verschiedene Formate ermöglicht, unter anderen .3dm (siehe [[012_Rhino_3D]]), .IFC (siehe [[134_IFC]]).
 
 # Teile von Modellen
 
@@ -17,7 +17,7 @@ Wenn nur eine lokal am Rechner gespeicherte Datei geöffnet wird, dann kann dies
 
 Ist er gewünscht eure 3D Modell mit anderen einfach zu teilen, dann ist es erforderlich die Datei zu hosten. 
 
-Für diese Internetseite werden die 3D Dateien auf GitHub in einem Repository (siehe [[212_Git]]) hochgeladen. Diese Datei hat dann einen Link (URL) der im Browser sichtbar ist, z.B.:
+Für diese Internetseite werden die 3D Dateien auf GitHub in einem Repository (siehe [[312_Git]]) hochgeladen. Diese Datei hat dann einen Link (URL) der im Browser sichtbar ist, z.B.:
 *https://github.com/AIztok/DiTWP_Data/blob/main/Rhino/test_1.3dm*
 
 Und im 3Dviewer wird das Modell über das URL geöffnet:

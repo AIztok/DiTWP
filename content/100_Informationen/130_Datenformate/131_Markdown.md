@@ -1,5 +1,5 @@
 ---
-title: 142_Markdown
+title: 131_Markdown
 draft: false
 tags:
   - md
@@ -8,8 +8,6 @@ tags:
 
 # Allgemein
 Markdown ist eine leichtgewichtige Auszeichnungssprache, die ursprünglich von [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) und [Aaron Swartz](https://de.wikipedia.org/wiki/Aaron_Swartz) im Jahr 2004 entwickelt wurde. Sie dient dazu, Textdokumente auf einfache Weise zu formatieren, indem sie leicht lesbare und schreibbare Plain-Text-Notationen verwendet, die in HTML oder andere Ausgabeformate konvertiert werden können. Markdown ist besonders beliebt bei Programmierern, Autoren und Bloggern, da es sich gut für das Schreiben von technischen Dokumenten und Webinhalten eignet.
-
----
 
 # Beispiele der Formatierung
 In Markdown sind Formatierungen wie Überschriften, Listen, Tabellen und Links durch spezielle Zeichen und Syntax gekennzeichnet. Hier sind einige grundlegende Formatierungselemente:
@@ -50,6 +48,7 @@ $$
 
 12. Bruchlinie zeichnen mit drei Bindestrichen "---"
 ---
+
 # Links
 
 Erläuterung der Markdown Sprache:
