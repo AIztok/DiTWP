@@ -22,6 +22,12 @@ Teile dieses Dokuments wurden mithilfe von [GPT3.5- ChatGPT](https://openai.com/
 ## Software
 Es werden vom Author Softwarepakete genannt und verwendet, es ist aber keine Werbung, es können auch alternative Softwarepakete benutzt werden.
 
+Verwendete Software:
+Zur Erstellung der Markdown Notizen: Obisidian
+Zur Erstellung der Internetseite: Quartz
+Zum Hosten der Internetseite: GitHubPages
+Zur Erstellung von kurzen Videoausschnitten - GIFs: [ScreenToGif](https://www.screentogif.com/)
+
 
 
 

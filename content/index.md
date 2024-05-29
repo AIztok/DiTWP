@@ -4,7 +4,7 @@ title: Digitale Tragwerksplanung
 
 **FH Campus Wien**
 
-Digitale Tragwerksplanung 
+Lehrveranstaltung: Digitale Tragwerksplanung Vorlesungen (VO) und Übung (UE) 
 
 ---
 

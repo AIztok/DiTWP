@@ -73,13 +73,19 @@ Zeigt den vollen Text statt nur Kurzbezeichnung.
 
 
 
-Kopieren
+## Kopieren von Komponenten
 
 Shift+Alt+ziehen
 
 
+## Panel erstellen
 
-Bake: 
+Mit Apostroph beginnen:
+
+![[Pasted image 20240529130724.png]]
+
+
+## Bake: 
 
 
 ## Datenstruktur

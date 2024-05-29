@@ -15,13 +15,13 @@ Mehr über JSON auf [w3schools](https://www.w3schools.com/whatis/whatis_json.asp
 
 
 
-# Online Editor
+# Online VIewer / Editor
 
 Es stehe auch diverse Online Editors zum lesen und bearbeiten von JSON Dateien, wie z.B: der [jsoneditoronline.org](https://jsoneditoronline.org).
 
 # Beispiel
 
-Beispiel einer Datenstruktur 
+Beispiel einer Datenstruktur im ifcJSON Format für drei Wände (nur ein Ausschnitt zur Veranschaulichung):
 
 ```json
 {
@@ -115,10 +115,13 @@ Beispiel einer Datenstruktur
 }
 ```
 
+Wird aber die JSON Datei in einem Viewer geöffnet kann auch die Datenstruktur als Baum (Tree) gezeigt werden, wo die verschachtelte Datenstruktur wesentlich leichter zu lesen ist:
+
+![[132_JSON_Tree_view.gif]]
 
 
 
+# Weitere Unterlagen
 
-
-
-
+https://de.wikipedia.org/wiki/GeoJSON
+https://geojson.io
