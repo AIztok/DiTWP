@@ -3,10 +3,6 @@ title: 005_Disclaimer
 draft: false
 tags: []
 ---
- 
-
-
-
 ## Aktualität und Genauigkeit der Unterlagen
 
 Die in dieser Lehrveranstaltung bereitgestellten Unterlagen wurden nach bestem Wissen und Gewissen erstellt und werden regelmäßig überarbeitet, um sie auf dem neuesten Stand zu halten. Dennoch ist es wichtig zu beachten, dass die Entwicklung digitaler Werkzeuge und Technologien rasant voranschreitet.
@@ -27,6 +23,7 @@ Zur Erstellung der Markdown Notizen: Obisidian
 Zur Erstellung der Internetseite: Quartz
 Zum Hosten der Internetseite: GitHubPages
 Zur Erstellung von kurzen Videoausschnitten - GIFs: [ScreenToGif](https://www.screentogif.com/)
+Erstellung von Handskizzen: Microsoft Whiteboard
 
 
 
