@@ -7,16 +7,17 @@ tags:
   - IFC
 ---
 # Allgemein
- 
+Speckle ist eine App und Plattform zum Austausch von Modelldaten zwischen gängigen Programmen der AEC (Architecture, Engineering, Construction) Industrie. 
+
+Speckle besteht aus:
+- Speckle Manager: App über die am Rechner der Benutzeraccount und die installierten Connectors verwaltet werden
+- Connectors: das sind Add-Ons für diverse Programme (Rhino, Grasshopper, Blender, Revit, Archicad usw.) über die Speckle in die Programme integriert wird und ein Datenaustausch ermöglich wird
+- Speckle Web-App: der Online Dienst, wo die Daten die ausgetauscht worden sind sichtbar sind, durch die Web-App kann eingesehen werden wer am Projekt mitarbeitet und wann welche Daten hochgeladen worden sind, es können Kommentare hinterlassen werden und Modell über den Browser eingesehen werden.
+- API und SDK: Application programming interfaces und Software development kits zum erstellen von eigenen Programmen die die Kapazitäten von Speckle nutzen
+
 https://speckle.systems/
 
-
-
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B9humiSpHzM?si=pN70b7tw9s85Nic7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 
 # Installieren
 
@@ -55,6 +56,8 @@ Hier die Anweisungen zum installieren des Add-ons (via Excel):
 ## Blender Connector
 
 
+Hier die Anweisung zum installieren (über Speckle Manager) und aktivieren des Add-Ons im Blender:
+[Speckle / Blender](https://speckle.systems/tutorials/getting-started-with-speckle-for-blender/)
 
 # Projects / Modells / Branches 
 
