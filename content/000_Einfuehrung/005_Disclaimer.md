@@ -24,7 +24,7 @@ Zur Erstellung der Internetseite: Quartz
 Zum Hosten der Internetseite: GitHubPages
 Zur Erstellung von kurzen Videoausschnitten - GIFs: [ScreenToGif](https://www.screentogif.com/)
 Erstellung von Handskizzen: Microsoft Whiteboard
-
+Prüfung der Aktualität der externen Links: [dead link checker](https://www.deadlinkchecker.com/website-dead-link-checker.asp)
 
 
 
