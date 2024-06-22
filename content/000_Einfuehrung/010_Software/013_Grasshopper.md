@@ -16,9 +16,19 @@ Grasshopper öffnen unter Werkzeuge/Grasshopper:
 
 ![[Pasted image 20240511121920.png]]
 
+
+# Komponenten
+
+Der visuelle Code im Grasshopper wird erzeugt durch das verbinden von einzelnen Komponenten (input/output).
+
+Einige Komponenten werden mit Rhino Installation installiert, andere können über Food4Rhino installiert werden, oder werden mit der Installation von anderen Programmen installiert (z.B. bei SOFiSTiK Rhino Interface). Es können auch vom Anwender eigene Komponenten erstellt werden. 
+
+Komponenten von Grasshopper leicht finden:  
+[Index aller GH Komponenten](https://grasshopperdocs.com/completeIndex.html)
+
 # Basisbefehle
 
-Eine Liste der Befehle die am häufigsten verwendet werden.
+Unten eine Liste der Befehle die im Zuge der Übung am häufigsten verwendet werden.
 
 ## Komponente Ergänzen
 
@@ -67,6 +77,12 @@ Wenn `Shift` gehalten wird, können zu einer Komponente mehrere Inputs gezogen w
 Zeigt den vollen Text statt nur Kurzbezeichnung.
 
 ![[Pasted image 20240531101211.png]]
+
+## Komponenten Beschriften
+
+Die Komponenten können beliebig beschriftet werden und diese Beschriftung kann auch angezeigt werden statt: rechte Maustaste auf die Komponenten / Beschriften / Auswählen Draw name:
+
+![[Pasted image 20240622232501.png]]
 
 ## Kopieren von Komponenten
 

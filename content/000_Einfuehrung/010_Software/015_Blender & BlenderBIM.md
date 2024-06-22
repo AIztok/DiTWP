@@ -30,10 +30,17 @@ Im folgenden werden die wesentlichen Befehle aufgelistet.
 Snap:
 ![[Pasted image 20240506225010.png]]
 
+
+Taste "n": öffnen der Sidebar
+
+![[Pasted image 20240614223959.png]]
+
+![[Pasted image 20240614223914.png]]
+
 ## Modellierung
 
 
-G - Verschieben
+G - Verschieben (Graft)
 G + X - Verschieben in X Richtung
 G + Y - Verschieben in Y Richtung
 G + Z - Verschieben in Z Richtung
