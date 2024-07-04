@@ -143,12 +143,33 @@ Wesentlich für einen parametrischen Entwurf ist die Datenstruktur. Gut und sinn
 
 ## Datenbaum (Data tree)
 
-Der Datenbau in Grasshopper ist eine Art  genesteter Daten (Nested List im englisch), einer [hierarchisch strukturierten Datenstruktur](https://de.wikipedia.org/wiki/Hierarchisch_strukturierte_Daten).
+Der Datenbau in Grasshopper ist eine Art  genesteter Daten (Nested List im englisch), einer [hierarchisch strukturierten Datenstruktur](https://de.wikipedia.org/wiki/Hierarchisch_strukturierte_Daten). Nicht zu verwechseln mit 
 
-"Graft" and  "Flatten" changes the data structure inside a parameter. Sometimes it is necessary to modify the data structure because the default layout does not result in the desired operations. Imagine you divide 5 closed curves into 10 segments each. The result of this operation is a data structure of 5 lists with 10 items (points) each. If you were to Flatten this structure, you'd end up with a single list containing 50 items. If you were to Graft this structure, you'd end up with 50 lists of one item each.
+Datenbäume sind eine Methode, um komplexe Datenstrukturen zu organisieren und zu verwalten. Sie erweitern das Konzept von Listen und ermöglichen eine detailliertere und hierarchische Datenverwaltung. Hier ist eine Übersicht, warum Datenbäume nützlich sind und wie sie sich im Vergleich zu normalen Listen darstellen:
+
+### Normale Listen
+
+- **Struktur**: Linear, eindimensional.
+- **Datenorganisation**: Einfache Sequenzen von Daten.
+- **Einsatzgebiet**: Ideal für einfache Aufgaben, bei denen die Reihenfolge der Daten wichtig ist, aber die Beziehungen zwischen verschiedenen Datensätzen minimal sind.
+
+### Datenbäume
+
+- **Struktur**: Hierarchisch, mehrdimensional.
+- **Datenorganisation**: Verschachtelte Listen (Äste und Unteräste), die komplexere Datenbeziehungen ermöglichen.
+- **Einsatzgebiet**: Wichtig für die Verwaltung mehrerer zusammenhängender Datensätze, insbesondere in komplexen parametrischen Entwürfen, bei denen Komponenten gruppiert und zusammen verarbeitet werden müssen.
+
+### Vorteile von Datenbäumen
+
+1. **Hierarchische Organisation**: Datenbäume können Daten hierarchisch speichern, wodurch Untergruppen von Daten effizienter verwaltet und abgerufen werden können.
+2. **Parallele Verarbeitung**: Sie können Operationen gleichzeitig auf verschiedenen Ästen des Baums anwenden, was Arbeitsabläufe rationalisiert.
+3. **Flexibilität**: Bäume ermöglichen die Arbeit mit komplexen Datenstrukturen, die mit flachen Listen umständlich wären.
+4. **Gruppierung und Verschachtelung**: Sie ermöglichen eine logische Gruppierung von Daten, was bei komplexen Modellierungsaufgaben, bei denen Elemente miteinander verbunden sind, entscheidend ist.
 
 
-Sehr gute Erläuterung des Konzepts:
+
+
+Auch eine sehr gute Erläuterung des Konzepts:
 https://bimcorner.com/a-beginners-guide-to-data-trees-in-grasshopper/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uHXaEWQDV9w?si=xB6XGC1N32Fqs0Rv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -156,6 +177,19 @@ https://bimcorner.com/a-beginners-guide-to-data-trees-in-grasshopper/
 Detaillierte Erläuterung zu Datenbäumen im Grasshopper:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SmNPxKTDcQI?si=Au2TvnNHG4MnQoFe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+# Grasshopper und LLMs
+
+
+
+Der Grasshopper Plug-In **GHPT** ermöglicht anhand von Prompts in [natürlicher Sprache](https://de.wikipedia.org/wiki/Nat%C3%BCrliche_Sprache) Komponenten Blocks zu erstellen.
+Der Plug-In kann über [Food4Rhino/GHPT](https://www.food4rhino.com/en/app/ghpt?_gl=1*apv80h*_up*MQ..*_ga*MTUxNTc0NzUwMS4xNzE5NjMxMDE3*_ga_FE9QK9PL3L*MTcxOTYzMTAxNi4xLjEuMTcxOTYzMTkwOS4wLjAuMA) installier werden.
+
+Mehr Anweisung zum [GitHub/GHPT](https://github.com/enmerk4r/GHPT).
+
+Für die Nutzung ist ein API Key von OpenAI erforderlich, siehe [[411_VO]] 
 
 # Weitere Unterlagen
 

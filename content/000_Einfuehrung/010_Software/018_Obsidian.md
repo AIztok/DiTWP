@@ -27,6 +27,9 @@ Durch die Verbindung mit Diensten wie Dropbox (in diesem Fall ist noch z.B. die 
 
 Mehr über die Funktionen von Obsidian kann [hier](https://help.obsidian.md/Obsidian/Index) gelesen werden bzw. es gibt hier eine Sammlung von einfachen Befehlen für das Markdown Format [[131_Markdown]].
 
+Obsidian ermöglicht Verbindungen zwischen einzelnen Notizen zu erstellen. 
+Mehr dazu [hier](https://help.obsidian.md/Linking+notes+and+files/Internal+links).
+
 # Weitere Unterlagen
 
 Sehr umfassender Youtube-kanal zu Personal Knowledge Databases und Obsidian:
