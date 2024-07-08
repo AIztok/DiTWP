@@ -13,9 +13,9 @@ Mehr über JSON auf [w3schools](https://www.w3schools.com/whatis/whatis_json.asp
 
 # Schreiben und Lesen von JSON Dateien
 
+Bei JSON Dateien handelt sich um ASCII Dateien, die in einem Text Editor gelesen und geschrieben werden könne. 
 
-
-# Online VIewer / Editor
+# Online Viewer / Editor
 
 Es stehe auch diverse Online Editors zum lesen und bearbeiten von JSON Dateien, wie z.B: der [jsoneditoronline.org](https://jsoneditoronline.org).
 
@@ -119,7 +119,7 @@ Wird aber die JSON Datei in einem Viewer geöffnet kann auch die Datenstruktur a
 
 ![[132_JSON_Tree_view.gif]]
 
-
+Ein weiteres Beispiel wird in der [[121_VO#Datenstruktur JSON]] genauer vorgestellt.
 
 # Weitere Unterlagen
 

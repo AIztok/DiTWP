@@ -13,7 +13,7 @@ Somit können die Beispiele selber ausprobiert, adaptiert usw. werden ohne dafü
 
 **Google Colab und Binder** bieten beide cloud-basierte Lösungen für die Ausführung und das Teilen von Jupyter-Notebooks. Während Colab sich auf die Bereitstellung leistungsstarker Rechenressourcen und Integration mit Google Drive konzentriert, zielt Binder darauf ab, reproduzierbare Forschung zu ermöglichen, indem es komplette Umgebungen für GitHub-Repositories bereitstellt. Beide Dienste erleichtern die Zusammenarbeit und das Teilen von Projekten, ohne dass eine lokale Installation erforderlich ist.
 
-# Jupyter Notebooks
+## Jupyter Notebooks
 
 **Was sind Jupyter Notebooks?** Jupyter Notebooks sind interaktive Dokumente, die Code, Text, Visualisierungen und andere Multimedia-Elemente kombinieren können. Sie sind ein Werkzeug der Jupyter-Projektfamilie und besonders beliebt in den Bereichen Datenwissenschaft, maschinelles Lernen und wissenschaftliches Rechnen.
 
@@ -30,7 +30,7 @@ Somit können die Beispiele selber ausprobiert, adaptiert usw. werden ohne dafü
 - **Dokumentation:** Kombiniert Code und erklärenden Text an einem Ort, was die Reproduzierbarkeit und Nachvollziehbarkeit von Analysen verbessert.
 - **Flexibilität:** Unterstützt verschiedene Programmiersprachen und lässt sich mit zahlreichen Bibliotheken und Tools integrieren.
 
-# Google Colab
+## Google Colab
 
 **Was ist Google Colab?** Google Colab (Google Colaboratory) ist eine kostenlose cloud-basierte Plattform, die es Benutzern ermöglicht, Jupyter-Notebooks direkt im Webbrowser zu erstellen und auszuführen. Es ist besonders nützlich für Datenanalyse, maschinelles Lernen und tiefes Lernen.
 
@@ -45,7 +45,7 @@ Somit können die Beispiele selber ausprobiert, adaptiert usw. werden ohne dafü
 - **Kollaboration:** Einfaches Teilen und gemeinsames Bearbeiten von Notebooks.
 - **Kostenlos:** Kostenloser Zugang zu GPUs und TPUs für beschleunigte Berechnungen.
 
-# Binder
+## Binder
 
 **Was ist Binder?** Binder ist ein kostenloser Open-Source-Dienst, der es ermöglicht, Jupyter-Notebooks und andere Rechenumgebungen von GitHub-Repositories auszuführen. Es wird von der gemeinnützigen Organisation Project Jupyter betrieben.
 

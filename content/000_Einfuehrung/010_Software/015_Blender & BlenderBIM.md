@@ -9,18 +9,15 @@ tags:
  
 # Allgemein
 
+**Blender** ist eine freie und offene 3D-Computergrafik-Software, die für Modellierung, Rigging, Animation, Simulation, Rendering, Compositing und Motion Tracking verwendet wird. Blender unterstützt auch Video-Editing und Game Creation. Die Software ist bekannt für ihre vielseitigen Werkzeuge und die Fähigkeit, eine Vielzahl von Aufgaben im Bereich der Computergrafik zu bewältigen. Blender wird sowohl von professionellen Künstlern als auch von Hobbyisten verwendet und ist durch seine Open-Source-Natur ständig weiterentwickelt und verbessert worden.
 
-
+**BlenderBIM** ist ein Add-on für Blender, das die Erstellung und Verwaltung von Building Information Models (BIM) direkt in Blender ermöglicht im Sinne von *Native IFC* (siehe [[111_VO#Native IFC]].
+Das Add-on bietet Werkzeuge für die Erstellung von architektonischen, strukturellen und MEP-Elementen (Mechanical, Electrical, and Plumbing) und unterstützt den gesamten Lebenszyklus eines Bauwerks von der Planung über die Konstruktion bis zur Instandhaltung. BlenderBIM zielt darauf ab, die Flexibilität und Leistungsfähigkeit von Blender in den Bereich der Bauindustrie zu bringen und gleichzeitig die Vorteile von Open-Source-Software zu nutzen.
 # Installation 
+
 Blender und das BlenderBIM sind freeware und open source.
 Die Anleitung zur Installation ist hier zu finden:
 https://docs.blenderbim.org/users/installation.html
-
-
-
-Gr
-
-
 
 # Befehle
 Im folgenden werden die wesentlichen Befehle aufgelistet.
@@ -112,7 +109,55 @@ Danach kann das Element ausgewählt  und verschoben werden:
 ![[Pasted image 20240704224826.png]]
 
 
+## Definition von Material und Zuweisung von Material
+
+Die Basis Information von BIM Modellen ist das Material 
+Die Definition und Zuweisung erfolgt in zwei Schritten:
+
+1. Material erstellen
+2. Material einzelnen Objekten zuweisen
+
+Neues Material anlegen:
+1. Auswählen `Material properties`
+2. Neues Material erstellen
+3. Neues Material benennen
+4. Unter `Base color` kann die Farbe geändert werden
+
+![[Pasted image 20240705223000.png]]
+
+Um die Materialfarbe an den Objekten zu sehen, muss folgende Einstellung ausgewählt sein:
+![[Pasted image 20240705223404.png]]
+
+Um das Material zu erstellen auswählen:
+
+![[Pasted image 20240705223448.png]]
+
+Danach benennen, evtl. beschrieben, einer Kategorie zuweisen und danach `Save Attributes`
+![[Pasted image 20240705223540.png]]
+
+Entspr. IFC muss noch ein Style zugewiesen werden, hier einfach `Add Stye` und danach `Save current shading style`:
+
+![[Pasted image 20240705223707.png]]
+
+Danach kann das erstellte Material einem oder mehreren ausgewählten IFC Objekten zugewiesen werden:
+1. Scene
+2. Geometry and Materials
+3. Object material - Edit
+4. Auswahl Material und bestätigen
+
+![[Pasted image 20240705224045.png]]
+
+
+Siehe auch das folgende Video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2fhvLJA-6iE?si=LwiklokxP1QuC_BU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Property set template
+
+
+
+
+
 
 Vorlagen für benutzerdefinierte Property sets erstellen.
 

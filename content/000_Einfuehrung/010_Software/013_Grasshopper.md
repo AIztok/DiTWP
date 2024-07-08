@@ -16,7 +16,6 @@ Grasshopper öffnen unter Werkzeuge/Grasshopper:
 
 ![[Pasted image 20240511121920.png]]
 
-
 # Komponenten
 
 Der visuelle Code im Grasshopper wird erzeugt durch das verbinden von einzelnen Komponenten (input/output).
@@ -166,9 +165,6 @@ Datenbäume sind eine Methode, um komplexe Datenstrukturen zu organisieren und z
 3. **Flexibilität**: Bäume ermöglichen die Arbeit mit komplexen Datenstrukturen, die mit flachen Listen umständlich wären.
 4. **Gruppierung und Verschachtelung**: Sie ermöglichen eine logische Gruppierung von Daten, was bei komplexen Modellierungsaufgaben, bei denen Elemente miteinander verbunden sind, entscheidend ist.
 
-
-
-
 Auch eine sehr gute Erläuterung des Konzepts:
 https://bimcorner.com/a-beginners-guide-to-data-trees-in-grasshopper/
 
@@ -178,11 +174,7 @@ Detaillierte Erläuterung zu Datenbäumen im Grasshopper:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SmNPxKTDcQI?si=Au2TvnNHG4MnQoFe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 # Grasshopper und LLMs
-
-
 
 Der Grasshopper Plug-In **GHPT** ermöglicht anhand von Prompts in [natürlicher Sprache](https://de.wikipedia.org/wiki/Nat%C3%BCrliche_Sprache) Komponenten Blocks zu erstellen.
 Der Plug-In kann über [Food4Rhino/GHPT](https://www.food4rhino.com/en/app/ghpt?_gl=1*apv80h*_up*MQ..*_ga*MTUxNTc0NzUwMS4xNzE5NjMxMDE3*_ga_FE9QK9PL3L*MTcxOTYzMTAxNi4xLjEuMTcxOTYzMTkwOS4wLjAuMA) installier werden.

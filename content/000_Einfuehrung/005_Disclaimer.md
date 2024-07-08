@@ -11,9 +11,9 @@ Aufgrund der schnellen Entwicklung dieser Technologien kann es vorkommen, dass e
 
 Der Autor dieser Unterlagen übernimmt keine Haftung für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen. Es wird empfohlen, sich bei Bedarf zusätzliche Informationsquellen zu erschließen und sich mit den neuesten Entwicklungen in der digitalen Tragwerksplanung vertraut zu machen.
 
-## KI Unterstützung
+## LLM Unterstützung
 
-Teile dieses Dokuments wurden mithilfe von [GPT3.5- ChatGPT](https://openai.com/blog/chatgpt) und [GPT 4.0, von OpenAI](https://openai.com/research/gpt-4), erstellt, auf Rechtschreibfehler geprüft oder zur Übersetzung genutzt.
+Teile dieses Dokuments wurden mithilfe von [GPT 4.0, von OpenAI](https://openai.com/research/gpt-4), erstellt, auf Rechtschreibfehler geprüft oder zur Übersetzung genutzt.
 
 ## Software
 Es werden vom Author Softwarepakete genannt und verwendet, es ist aber keine Werbung, es können auch alternative Softwarepakete benutzt werden.
