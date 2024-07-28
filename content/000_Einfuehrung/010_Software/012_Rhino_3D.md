@@ -18,7 +18,7 @@ Die Hauptmerkmale von Rhino umfassen:
 Rhino wird oft in Kombination mit anderen Softwarelösungen verwendet, um ein breites Spektrum an Design- und Fertigungsanforderungen abzudecken.
 # Installation
 
-## Rhino 7
+## Rhino 8
 Derzeit steht bereits Rhino 8 zur Verfügung. Wir werden jedoch noch mit Rhino 7 arbeiten.
 
 ## Lizenz
@@ -42,8 +42,6 @@ Bitte die Version 2.0.0 oder neuere herunterladen.
 
 
 # Weitere Unterlagen
-
-
 
 ## Interessante Add-Ons
 

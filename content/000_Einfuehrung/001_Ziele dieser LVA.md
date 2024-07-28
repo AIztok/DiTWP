@@ -4,7 +4,7 @@ draft: false
 tags:
   - DiTWP
 ---
- 
+# 0. Allgemein 
 
 Wie arbeite ich mit anderen Zusammen. Wie werden die Informationen:
 1. erhoben und strukturiert - 
@@ -31,7 +31,6 @@ Idee: internet seite erstellen wo dieser Vault hinterlegt ist und man mit chat g
 # 2. Informationen generieren
 
 
-
 Was wird in der Vorlesung vermittelt:
 
 
@@ -54,10 +53,6 @@ Formate erklären:
 
 Collaboration Platformen
 - Google colab https://colab.research.google.com/
-
-
-
-
 
 
 # 4. Informationen werden Realität

@@ -19,6 +19,8 @@ Blender und das BlenderBIM sind freeware und open source.
 Die Anleitung zur Installation ist hier zu finden:
 https://docs.blenderbim.org/users/installation.html
 
+Blende 4.1 installieren! (nicht Blender 4.2 LTS)
+
 # Befehle
 Im folgenden werden die wesentlichen Befehle aufgelistet.
 

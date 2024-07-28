@@ -7,38 +7,69 @@ tags:
 
 # Was ist Tragwerksplanung?
 
+Für die Definition stützen wir uns auf die [Leistungsmodelle 2023 erarbeitet von Univ.-Prof. DI Hans Lechner](https://www.arching.at/mitglieder/552/leistungsmodelle_20142023.html).
 
+Auszug aus dem LM.VM.23:
 
+![[Pasted image 20240728151455.png]]
+
+Die Tragwerksplanung ist ein Bestandteil der Fachplanung.
+Umfasst werden mit der Tragwerksplanung vorrangig die mit der Statik eines Bauwerks einhergehenden Leistungen, Nachweise und Berechnungen. Der die Tragwerksplanung Ausführende ist der Tragwerksplaner, oft auch synonym als "Statiker" bezeichnet - was nach Meinung des Autors oft etwas kurzgegriffen ist, da Tragwerksplaner nicht "nur" Nachweise und Berechnungen anstellen, sondern auch bei der Objektplanung tätig sind (führend wenn es sich um Ingenieurbauwerke handelt oder den Architekten unterstützend bei Hochbauplanung).
 
 # Was ist Digital?
 
-Trocken beschrieben bezieht sich *digital* auf die Darstellung von Informationen in einer binären Form, die von Computern verstanden und verarbeitet werden kann. Dabei werden Daten in Form von Einsen und Nullen (Bits) kodiert. Diese digitale Darstellung ermöglicht eine präzise und effiziente Speicherung, Verarbeitung und Übertragung von Informationen. Im Gegensatz zur analogen Darstellung, die kontinuierlich und oft variabel ist, sind digitale Informationen diskret und können einfach vervielfältigt, bearbeitet und fehlerfrei übertragen werden. Digitale Technologie bildet die Grundlage moderner Computer, Smartphones, Netzwerke und vieler anderer elektronischer Geräte und Systeme, die unser tägliches Leben prägen.
+Trocken beschrieben bezieht sich *digital* auf die Darstellung von Informationen in einer binären Form, die von Computern "verstanden" und verarbeitet werden kann. Dabei werden Daten in Form von Einsen und Nullen (Bits) kodiert. Diese digitale Darstellung ermöglicht eine präzise und effiziente Speicherung, Verarbeitung und Übertragung von Informationen. Im Gegensatz zur analogen Darstellung, die kontinuierlich und oft variabel ist, sind digitale Informationen diskret und können einfach vervielfältigt, bearbeitet und fehlerfrei übertragen werden. Digitale Technologie bildet die Grundlage moderner Computer, Smartphones, Netzwerke und vieler anderer elektronischer Geräte und Systeme, die unser tägliches Leben prägen.
 
 Aber im etwas weiteren Sinne gibt es die digitalen Prinzipien auch in der Natur, z.B. in der genetischen Information.
-DNA nutzt  diskrete Einheiten (Nukleotide), um biologische Informationen zu codieren, was Fehlerkorrekturmechanismen während der DNA-Replikation ermöglicht. Dieser digitalähnliche Prozess in der Genetik sichert die Genauigkeit der Informationsübertragung über Generationen hinweg und zeigt eine Parallele zwischen natürlichen Systemen und menschlich entwickelten digitalen Systemen.
+DNA nutzt diskrete Einheiten (Nukleotide), um biologische Informationen zu codieren, was Fehlerkorrekturmechanismen während der DNA-Replikation ermöglicht. Dieser digitalähnliche Prozess in der Genetik sichert die Genauigkeit der Informationsübertragung über Generationen hinweg und zeigt eine Parallele zwischen natürlichen Systemen und menschlich entwickelten digitalen Systemen (siehe [Shannon's theorem](https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem)).
 Die DNA wird bei der Entstehung und Entwicklung von Lebewesen Milliarden Mal kopiert und das praktisch fehlerfrei bzw. nur mit kleinen genetischen Mutationen.
 
-Im weiten Sinne bedeutet Digital: 
+Im weiten Sinne bedeutet also **Digital** im Bezug auf diese Lehrveranstaltung (die vier Prinzipien wurden von Gershenfeld ([[003_Literatur]]) übernommen): 
 
-**Reliability - Zuverlässigkeit**: error correction
+**Reliability - Zuverlässigkeit**: Fehlerkorrektur möglich, werden durch die Weiterbearbeitung der Informationen die Fehler multipliziert und immer größer, oder kann wird ein Prozess bzw. Algorithmus verwendet, wo eine Fehlerkorrektur stattfinden kann.
 
+**Modularity - Modularität**: Modularität beschreibt ein Designprinzip, bei dem ein System in kleinere, unabhängige Module zerlegt wird. Jedes Modul erfüllt eine spezifische Funktion und kann unabhängig von anderen Modulen entwickelt, getestet und gewartet werden. Dies erleichtert nicht nur die Fehlersuche und -behebung, sondern auch die Erweiterung und Anpassung des Systems. Modularität fördert Flexibilität und Wiederverwendbarkeit von Komponenten. 
 
-**Modularity - Modularität**: Modularität beschreibt ein Designprinzip, bei dem ein System in kleinere, unabhängige Module zerlegt wird. Jedes Modul erfüllt eine spezifische Funktion und kann unabhängig von anderen Modulen entwickelt, getestet und gewartet werden. Dies erleichtert nicht nur die Fehlersuche und -behebung, sondern auch die Erweiterung und Anpassung des Systems. Modularität fördert Flexibilität und Wiederverwendbarkeit von Komponenten. Ein wesentlicher Teil sind standarisierte Schnittstellen (siehe [[134_IFC]]).
+[Stadium 974](https://www.sbp.de/projekt/stadion-974/) (Bild Quelle [istructe.org](https://www.istructe.org/structural-awards/projects/2022/stadium-974/))
+![[Pasted image 20240728155048.png]]
 
 **Locality - Lokalität**: kein Masterplan, das Produkt wächst und wird immer wieder neu definiert durch die Einzelteile. 
+Dieses Prinzip ist im Gegenspruch zu der üblichen Objektplanung - von weit betrachtet. 
 
-**Reversibility - Reversibilität**: kein Abfall, alles kann wiederverwendet werden. Was ist Abfall: ein Erzeugnis das nicht die Information besitzt oder diese nicht gelesen werden kann, wozu kann es noch dienen. In der Natur gibt es solche Erzeugnisse nicht. Alles wird von Pflanzen, Tieren wiederverwendet um neues zu erschaffen.
-
-Die oberen vier Punkte wurden entnommen aus Gershenfeld, Designing Reality (siehe [[003_Literatur]].
+**Reversibility - Reversibilität**: kein Abfall, alles kann wiederverwendet werden. Was ist Abfall: ein Erzeugnis das nicht die Information besitzt oder diese nicht gelesen werden kann, wozu kann das Erzeugnis noch dienen. In der Natur gibt es solche Erzeugnisse nicht. Alles wird von Pflanzen, Tieren wiederverwendet um neues zu erschaffen. 
+Das ist auch einer der großen Ziele der Bauwirtschaft, Bauprodukte und Bauwerke so zu entwerfen und gestalten, dass eine Wiederverwendbarkeit oder Zerlegung in Einzelteile möglich ist.
+Siehe hierzu auch:
+- [ProHolz / Zuschnitt 88 / Bauteilbörsen und Materialdatenbanken](https://www.proholz.at/zuschnitt/88/bauteilboersen-und-materialdatenbanken)
+- [BauKarussell](https://www.baukarussell.at/)
 
 # Was ist digitale Tragwerksplanung?
 
+Die digitale Tragwerksplanung ist somit das verbinden der Leistungen der Tragwerksplanung mit den Grundprinzipien des digitalen:
 
+
+**Zuverlässigkeit**
+
+Übertragen auf unsere LVA bedeutet das:
+- Analoge Informationen in digitale umzuwandeln, damit diese leicht bearbeitbar und teilbar werden (siehe [[111_VO]])
+- Klare Datenstrukturen und Datenformate (siehe [[121_VO]])
+
+**Modularität**
+
+Ein wesentlicher Teil sind standarisierte Schnittstellen (siehe [[134_IFC]]) und nahtlose Zusammenarbeit mit anderen Menschen ([[321_VO]]) bzw. nutzen von einzelnen (z.B. Komponenten in Grasshopper ([[013_Grasshopper]]).
+
+**Lokalität**
+
+
+
+**Reversibilität**
 
 
 
 # Warum digitale Tragwerksplanung?
 
-Das menschliche Denken ist stark von analogem Denken geprägt – wir erfassen und verarbeiten Informationen intuitiv und bildhaft. Diese Denkweise ist entscheidend, um komplexe Zusammenhänge zu verstehen und kreative Lösungen zu finden. Skizzen auf Papier und Diskussionen mit anderen sind wichtige Methoden, um unsere Gedanken zu visualisieren und zu strukturieren. Sie fördern den Austausch von Ideen und helfen, Konzepte klarer zu erfassen.
+Das menschliche Denken ist stark von analogem Denken geprägt – wir erfassen und verarbeiten Informationen intuitiv und bildhaft. Diese Denkweise ist entscheidend, um komplexe Zusammenhänge zu verstehen und kreative Lösungen zu finden. Skizzen auf Papier und Diskussionen mit anderen sind wichtige Methoden, um unsere Gedanken zu visualisieren, zu strukturieren und zu präzisieren. Sie fördern den Austausch von Ideen und helfen, Konzepte klarer zu erfassen.
 
-Um jedoch auf bisherigen Fortschritten aufzubauen und diese effektiv zu teilen, ist es essentiell, analoge Arbeit ins Digitale zu übertragen. Die Digitalisierung von Skizzen und Notizen ermöglicht eine bessere Organisation und Archivierung. Digitale Werkzeuge erleichtern die Zusammenarbeit, unabhängig von Ort und Zeit, und bieten Plattformen, um kreative und analytische Fähigkeiten weiterzuentwickeln. So verbinden wir die intuitive analoge Welt mit der strukturierten digitalen Welt und heben unser Denken und Arbeiten auf ein neues Niveau.
+Um jedoch auf bisherigen Fortschritten aufzubauen und diese effektiv zu teilen, ist es essentiell, analoge Arbeit ins digitale zu übertragen und dort so (lernen) zu gestalten, dass die Vorteile, die die Grundprinzipien des digitalen bieten, zu ermöglichen und zu nutzen.
+
+Der große Anspruch dieser LVA ist es einen kleinen Schritt in diese Richtung zu machen. 
+

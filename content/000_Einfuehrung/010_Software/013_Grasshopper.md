@@ -181,7 +181,7 @@ Der Plug-In kann über [Food4Rhino/GHPT](https://www.food4rhino.com/en/app/ghpt?
 
 Mehr Anweisung zum [GitHub/GHPT](https://github.com/enmerk4r/GHPT).
 
-Für die Nutzung ist ein API Key von OpenAI erforderlich, siehe [[411_VO]] 
+Für die Nutzung ist ein API Key von OpenAI erforderlich, siehe [[411_VO]] .
 
 # Weitere Unterlagen
 
