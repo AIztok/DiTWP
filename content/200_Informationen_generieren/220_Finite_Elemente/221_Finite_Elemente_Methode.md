@@ -11,15 +11,23 @@ Die Finite-Elemente-Methode (FEM) ist eine numerische Methode zur Lösung von pa
 4. **Zusammensetzung des Gesamtsystems**: Die Elementgleichungen werden zu einem globalen Gleichungssystem zusammengefügt.
 5. **Lösung des Gleichungssystems**: Das resultierende Gleichungssystem wird gelöst, um die gesuchten Feldgrößen (z.B. Verschiebungen, Spannungen) zu bestimmen.
 
-# Stabelemente
+Finite Elemente werden grundsätzlich unterteilt in:
+- Eindimensionale Elemente (Fachwerk, Stab)
+- Zweidimensionale Elemente (Dreiecke, Vierecke - Quadrilaterals)
+- Dreidimensionale Elemente (Volumen - Tetrahedrons, Hexahedrons, Pentahedrons)
 
-## 1D-Stabmodelle (Axiale Belastung)
+Exemplarisch werden unten die Typen von eindimensionalen Elementen aufgezeigt. 
+In der Übung ([[212_UE]]) werden wir 3D Stabelemente verwenden.
+# Eindimensionale Elemente
+
+## Fachwerkstab (Axiale Belastung)
 
 Ein 1D-Stabmodell beschreibt ein Element, das hauptsächlich axial belastet wird. Dies bedeutet, dass die Kräfte entlang der Länge des Stabes wirken, und das Element nur axiale Verformungen erfährt.
+![[Pasted image 20240804124632.png]]
 
 Die Steifigkeitsmatrix für ein einfaches 1D-Stabelement lautet:
 
-![1D Steifigkeitsmatrix](http://www.sciweavers.org/tex2img.php?eq=K%20%3D%20%5Cfrac%7BEA%7D%7BL%7D%20%5Cbegin%7Bbmatrix%7D%201%20%26%20-1%20%5C%5C%20-1%20%26%201%20%5Cend%7Bbmatrix%7D&bc=White&fc=Black&im=jpg&fs=18&ff=arev&edit=)
+![1D Truss Element Stiffness Matrix](https://latex.codecogs.com/png.image?\bg_white&space;K=\frac{EA}{L}\begin{bmatrix}1&-1\\-1&1\end{bmatrix})
 
 Hier ist:
 - \( E \) der Elastizitätsmodul des Materials,
@@ -29,27 +37,30 @@ Hier ist:
 
 Ein 2D-Biegestabelement (auch Balken genannt) hat eine komplexere Steifigkeitsmatrix, die sowohl die axiale Steifigkeit als auch die Biegesteifigkeit berücksichtigt. Die Knotenverschiebungen umfassen Verschiebungen in x- und y-Richtung sowie Rotation.
 
+![[Pasted image 20240804124643.png]]
+
 Wie man an der unteren Matrize sieht, gibt es jetzt 6 x 6 Felder. 
 
 ![2D Steifigkeitsmatrix](https://latex.codecogs.com/png.image?\bg_white&space;K=\frac{E}{L}\begin{bmatrix}\frac{A}{L}&0&0&-\frac{A}{L}&0&0\\0&\frac{12I}{L^3}&\frac{6I}{L^2}&0&-\frac{12I}{L^3}&\frac{6I}{L^2}\\0&\frac{6I}{L^2}&\frac{4I}{L}&0&-\frac{6I}{L^2}&\frac{2I}{L}\\-\frac{A}{L}&0&0&\frac{A}{L}&0&0\\0&-\frac{12I}{L^3}&-\frac{6I}{L^2}&0&\frac{12I}{L^3}&-\frac{6I}{L^2}\\0&\frac{6I}{L^2}&\frac{2I}{L}&0&-\frac{6I}{L^2}&\frac{4I}{L}\end{bmatrix})
 
+Hier ist:
+- \( E \) der Elastizitätsmodul des Materials,
+- \( A \) die Querschnittsfläche,
+- \( L \) die Länge des Stabelements.
+- \( I \) Trägheitsmoment des Querschnitts.
+
 ## 3D-Stabelemente
 
-Wie man an der unteren Matrize sieht, gibt es jetzt 12 x 12 Felder. 
+In einem 3D System, hat jeder Knoten 6 Freiheitsgrade (3x Verschiebung, 3x Verdrehung):
+
+![[Pasted image 20240804124700.png]]
+
+Wie man an der unteren Matrize sieht, gibt es jetzt 12 x 12 Felder für ein Stabelement. 
 
 ![3D Steifigkeitsmatrix](https://latex.codecogs.com/png.image?\bg_white&space;K=\begin{bmatrix}\frac{EA}{L}&0&0&0&0&0&-\frac{EA}{L}&0&0&0&0&0\\0&\frac{12EI_z}{L^3}&0&0&0&\frac{6EI_z}{L^2}&0&-\frac{12EI_z}{L^3}&0&0&0&\frac{6EI_z}{L^2}\\0&0&\frac{12EI_y}{L^3}&0&-\frac{6EI_y}{L^2}&0&0&0&-\frac{12EI_y}{L^3}&0&-\frac{6EI_y}{L^2}&0\\0&0&0&\frac{GJ}{L}&0&0&0&0&0&-\frac{GJ}{L}&0&0\\0&0&-\frac{6EI_y}{L^2}&0&\frac{4EI_y}{L}&0&0&0&\frac{6EI_y}{L^2}&0&\frac{2EI_y}{L}&0\\0&\frac{6EI_z}{L^2}&0&0&0&\frac{4EI_z}{L}&0&-\frac{6EI_z}{L^2}&0&0&0&\frac{2EI_z}{L}\\-\frac{EA}{L}&0&0&0&0&0&\frac{EA}{L}&0&0&0&0&0\\0&-\frac{12EI_z}{L^3}&0&0&0&-\frac{6EI_z}{L^2}&0&\frac{12EI_z}{L^3}&0&0&0&-\frac{6EI_z}{L^2}\\0&0&-\frac{12EI_y}{L^3}&0&\frac{6EI_y}{L^2}&0&0&0&\frac{12EI_y}{L^3}&0&\frac{6EI_y}{L^2}&0\\0&0&0&-\frac{GJ}{L}&0&0&0&0&0&\frac{GJ}{L}&0&0\\0&0&-\frac{6EI_y}{L^2}&0&\frac{2EI_y}{L}&0&0&0&\frac{6EI_y}{L^2}&0&\frac{4EI_y}{L}&0\\0&\frac{6EI_z}{L^2}&0&0&0&\frac{2EI_z}{L}&0&-\frac{6EI_z}{L^2}&0&0&0&\frac{4EI_z}{L}\end{bmatrix})
 
 
-# Flächenelemente
-
-
-
-# Volumenelemente
-
-
-
-
-# Beispiel des Halbrahmens:
+# Beispiel des Halbrahmens
 
 Die Finite Elemente Berechnung des Übungsbeispiel von Grund auf, kann hier eingesehen werden: 
 
@@ -57,6 +68,7 @@ Die Finite Elemente Berechnung des Übungsbeispiel von Grund auf, kann hier eing
 
 (öffnet das Jupyter Nootbook in Binder, womit der Quellcode über den Webbrowser eingesehen / geändert / berechnet werden kann)
 
+# Weitere Unterlagen
 
-
-
+Zu dem Buch von Prof. Horst Werkle ([[003_Literatur#200 Informationen Generieren]]) werden auch Präsentationen zur Verfügung gestellt, dort ist die FE Methode noch tiefer erläutert:
+https://fembau.de/praesentationen-fuer-die-lehre/

@@ -16,7 +16,7 @@ Wie aus der kurzen Listen unten ersichtlich, gibt es zum Thema Digitale Tragwerk
 
 # 200 Informationen Generieren
 
-
+- Horst Werkle: [Finite Elemente in der Baustatik](https://fembau.de/)
 
 # 300 Informationen teilen
 

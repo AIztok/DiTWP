@@ -1,7 +1,8 @@
 ---
-title: 422_KI_und_Tragwerksplanung
+title: 421_KI_und_Tragwerksplanung
 draft: false
-tags: []
+tags:
+  - "#LLM"
 ---
  
 ## Grundlagen der Wissensdokumentation und Datenmanagement

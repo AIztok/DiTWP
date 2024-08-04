@@ -30,8 +30,6 @@ X;Y;Z
 ```
 
 
-Einlesen der CSV Datei ins Grasshopper
-
 
 
 

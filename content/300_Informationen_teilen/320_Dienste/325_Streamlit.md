@@ -1,5 +1,5 @@
 ---
-title: 315_Streamlit
+title: 325_Streamlit
 draft: false
 tags:
   - Python
@@ -19,7 +19,6 @@ Wichtige Merkmale von Streamlit:
 5. **Freigabe:** Anwendungen können leicht geteilt und über das Internet bereitgestellt werden.
 
 Insgesamt bietet Streamlit eine intuitive und effiziente Möglichkeit, datengetriebene Webanwendungen zu erstellen und zu teilen. 
-
 
 # Wie und wo werden wir Streamlit nutzen?
 

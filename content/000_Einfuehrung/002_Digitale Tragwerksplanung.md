@@ -14,7 +14,17 @@ Auszug aus dem LM.VM.23:
 ![[Pasted image 20240728151455.png]]
 
 Die Tragwerksplanung ist ein Bestandteil der Fachplanung.
-Umfasst werden mit der Tragwerksplanung vorrangig die mit der Statik eines Bauwerks einhergehenden Leistungen, Nachweise und Berechnungen. Der die Tragwerksplanung Ausführende ist der Tragwerksplaner, oft auch synonym als "Statiker" bezeichnet - was nach Meinung des Autors oft etwas kurzgegriffen ist, da Tragwerksplaner nicht "nur" Nachweise und Berechnungen anstellen, sondern auch bei der Objektplanung tätig sind (führend wenn es sich um Ingenieurbauwerke handelt oder den Architekten unterstützend bei Hochbauplanung).
+Umfasst werden mit der Tragwerksplanung vorrangig die mit der Statik eines Bauwerks einhergehenden Leistungen, Nachweise und Berechnungen. 
+Der die Tragwerksplanung Ausführende ist der Tragwerksplaner, oft auch synonym als "Statiker" bezeichnet - was nach Meinung des Autors oft etwas kurzgegriffen ist, da Tragwerksplaner nicht "nur" Nachweise und Berechnungen anstellen, sondern auch bei der Objektplanung tätig sind (führend wenn es sich um Ingenieurbauwerke handelt oder den Architekten unterstützend bei Hochbauplanung).
+
+## Leistungsphasen der Tragwerksplanung
+
+- LPH 1: Grundlagenanalyse
+-  LPH 2: Vorentwurf
+- LPH 3: Konstruktionsentwurf
+- LPH 4: Einreichplanung
+- LPH 5: Ausführungsplanung
+-  LPH 6: Ausschreibungs (LVs) und Mitwirkung an der Vergabe
 
 # Was ist Digital?
 
@@ -34,7 +44,6 @@ Im weiten Sinne bedeutet also **Digital** im Bezug auf diese Lehrveranstaltung (
 ![[Pasted image 20240728155048.png]]
 
 **Locality - Lokalität**: kein Masterplan, das Produkt wächst und wird immer wieder neu definiert durch die Einzelteile. 
-Dieses Prinzip ist im Gegenspruch zu der üblichen Objektplanung - von weit betrachtet. 
 
 **Reversibility - Reversibilität**: kein Abfall, alles kann wiederverwendet werden. Was ist Abfall: ein Erzeugnis das nicht die Information besitzt oder diese nicht gelesen werden kann, wozu kann das Erzeugnis noch dienen. In der Natur gibt es solche Erzeugnisse nicht. Alles wird von Pflanzen, Tieren wiederverwendet um neues zu erschaffen. 
 Das ist auch einer der großen Ziele der Bauwirtschaft, Bauprodukte und Bauwerke so zu entwerfen und gestalten, dass eine Wiederverwendbarkeit oder Zerlegung in Einzelteile möglich ist.
@@ -46,24 +55,25 @@ Siehe hierzu auch:
 
 Die digitale Tragwerksplanung ist somit das verbinden der Leistungen der Tragwerksplanung mit den Grundprinzipien des digitalen:
 
-
 **Zuverlässigkeit**
-
 Übertragen auf unsere LVA bedeutet das:
 - Analoge Informationen in digitale umzuwandeln, damit diese leicht bearbeitbar und teilbar werden (siehe [[111_VO]])
 - Klare Datenstrukturen und Datenformate (siehe [[121_VO]])
 
 **Modularität**
-
-Ein wesentlicher Teil sind standarisierte Schnittstellen (siehe [[134_IFC]]) und nahtlose Zusammenarbeit mit anderen Menschen ([[321_VO]]) bzw. nutzen von einzelnen (z.B. Komponenten in Grasshopper ([[013_Grasshopper]]).
+Ein wesentlicher Teil sind standarisierte Schnittstellen (siehe [[134_IFC]]) und nahtlose Zusammenarbeit mit anderen Menschen ([[311_VO]]) bzw. nutzen von einzelnen (z.B. Komponenten in Grasshopper ([[013_Grasshopper]]).
 
 **Lokalität**
-
-
+Dieses Prinzip erscheint im Gegenspruch zu der üblichen Objektplanung zu sein, wo es in der Regel einen "Masterplan" gibt (z.B. Stadtentwicklungsplan -> Architekturplanung -> Tragwerksplanung). Aber dass ist nur von weit im Sinne einer Post-mortem-Analyse betrachtet. Tatsächlich fließen bei Informationen von oben nach unten als auch von unten nach oben, unabhängig von wie "weit" oder "nah" die Prozesse betrachtet werden. Auch in der Objektplanung und Tragwerksplanung kann ein Herstellungsprozess die Form eines Bauteils bestimmen, . Unsere Aufgabe ist es durch das nutzen von digitalen Methoden zu ermöglichen, dass diese Informationen fließen können und somit sinnvolle Entscheidungen getroffen werden können.
 
 **Reversibilität**
-
-
+Den Anspruch auf Reversibilität bei unserer LVA begrenzen wir auf unsere Arbeit, was wir in den Übungen erstellen. 
+Wie gestellten wir unsere Arbeit so, dass wir Teile von dieser immer wieder neu nutzen können? Dafür werden wir folgende Punkte durchgehen:
+- Geometrische Modelle parametrisch in Rhino / Grasshopper erstellen: [[112_UE]]
+- Versionierung von Daten, Teilen von Informationen:
+	- Dienste die ein Teilen von Informationen ermöglichen: [[321_Speckle]]
+	- Konzept hinter Versionierung und Zusammenarbeit mit GIT: [[322_Git]]
+Das Konzept der Reversibilität überschneidet sich in unserer LVA mit dem Konzept der Modularität. Nur wenn wir unsere Modell Modular aufbauen, können diese auch Reversibel sein, also wieder verwendbar.
 
 # Warum digitale Tragwerksplanung?
 
@@ -72,4 +82,5 @@ Das menschliche Denken ist stark von analogem Denken geprägt – wir erfassen u
 Um jedoch auf bisherigen Fortschritten aufzubauen und diese effektiv zu teilen, ist es essentiell, analoge Arbeit ins digitale zu übertragen und dort so (lernen) zu gestalten, dass die Vorteile, die die Grundprinzipien des digitalen bieten, zu ermöglichen und zu nutzen.
 
 Der große Anspruch dieser LVA ist es einen kleinen Schritt in diese Richtung zu machen. 
+
 

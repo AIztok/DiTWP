@@ -1,5 +1,5 @@
 ---
-title: 313_Online_3D_viewer
+title: 323_Online_3D_viewer
 draft: false
 tags:
   - 3D
@@ -17,7 +17,7 @@ Wenn nur eine lokal am Rechner gespeicherte Datei geöffnet wird, dann kann dies
 
 Ist er gewünscht eure 3D Modell mit anderen einfach zu teilen, dann ist es erforderlich die Datei zu hosten. 
 
-Für diese Internetseite werden die 3D Dateien auf GitHub in einem Repository (siehe [[312_Git]]) hochgeladen. Diese Datei hat dann einen Link (URL) der im Browser sichtbar ist, z.B.:
+Für diese Internetseite werden die 3D Dateien auf GitHub in einem Repository (siehe [[322_Git]]) hochgeladen. Diese Datei hat dann einen Link (URL) der im Browser sichtbar ist, z.B.:
 *https://github.com/AIztok/DiTWP_Data/blob/main/Rhino/test_1.3dm*
 
 Und im 3Dviewer wird das Modell über das URL geöffnet:

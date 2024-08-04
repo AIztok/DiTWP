@@ -1,10 +1,9 @@
-
-
-
-
-
-
-
+---
+title: 422_Zukunft_des_Bauens
+draft: false
+tags:
+---
+ 
 # Interessante Projekte / Unternehmen / Forschung
 
 ## Robotik
@@ -35,3 +34,5 @@
 https://www.schnellgroup.com/en/Products/Automatic-double-bending-machine-Robomaster-60-UNO/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dCU6TIuoM3w?si=TXNlwLrLzP2_-JeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+

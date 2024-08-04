@@ -1,5 +1,5 @@
 ---
-title: 311_Speckle
+title: 321_Speckle
 draft: false
 tags:
   - 3D
@@ -46,7 +46,7 @@ Mehr zu den Speckle Komponenten im Grasshopper:
 ## Excel Connector
 Der Excel connector ist ein Community Add-on, also nicht offiziell von Speckle entwickelt, sondern mit der Nutzung des Speckle [APIs](https://de.wikipedia.org/wiki/Programmierschnittstelle).
 
-Der Connector kann über Excell Add-ins installiert werden:
+Der Connector kann über Excel Add-ins installiert werden:
 
 ![[Pasted image 20240531105936.png]]
 
@@ -54,7 +54,6 @@ Hier die Anweisungen zum installieren des Add-ons (via Excel):
 [Speckle / Excel](https://speckle.systems/tag/excel/)
 
 ## Blender Connector
-
 
 Hier die Anweisung zum installieren (über Speckle Manager) und aktivieren des Add-Ons im Blender:
 [Speckle / Blender](https://speckle.systems/tutorials/getting-started-with-speckle-for-blender/)

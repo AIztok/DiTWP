@@ -19,7 +19,7 @@ Rhino wird oft in Kombination mit anderen Softwarelösungen verwendet, um ein br
 # Installation
 
 ## Rhino 8
-Derzeit steht bereits Rhino 8 zur Verfügung. Wir werden jedoch noch mit Rhino 7 arbeiten.
+Wir werden Rhino 8 verwenden.
 
 ## Lizenz
 Die FH Campus Wien bietet den Studierenden Lizenzen für Rhino an. Siehe hierzu eine gesonderte Email an die Studierenden mit weiteren Anweisungen.

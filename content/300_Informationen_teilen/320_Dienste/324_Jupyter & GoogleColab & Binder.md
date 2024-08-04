@@ -1,5 +1,5 @@
 ---
-title: 314_Jupyter & GoogleColab & Binder
+title: 324_Jupyter & GoogleColab & Binder
 draft: false
 tags:
   - Python
