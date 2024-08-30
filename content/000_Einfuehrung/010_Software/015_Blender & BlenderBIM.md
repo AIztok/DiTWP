@@ -156,24 +156,14 @@ Siehe auch das folgende Video:
 
 ## Property set template
 
-
-
-
-
-
 Vorlagen für benutzerdefinierte Property sets erstellen.
 
-https://www.youtube.com/watch?v=nlSM593swZY&ab_channel=BIMvoice
-
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nlSM593swZY?si=A_KVCbRUgBLkcCXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Weitere Unterlagen
 
-Konvertieren 2D Zeichnungen ins BIM mit BlenderBIM: 
-https://www.youtube.com/watch?v=L3Ihnkp42tE&ab_channel=BIMvoice
+[Konvertieren 2D Zeichnungen ins BIM mit BlenderBIM](https://www.youtube.com/watch?v=L3Ihnkp42tE&ab_channel=BIMvoice).
 
-4D Bim in Blender BIM:
-https://www.youtube.com/watch?v=Q7-UBKLBK58&ab_channel=ConsultBIM%28SigmaDimensions%29
+[4D Bim in Blender BIM](https://www.youtube.com/watch?v=Q7-UBKLBK58&ab_channel=ConsultBIM%28SigmaDimensions%29)
+
 

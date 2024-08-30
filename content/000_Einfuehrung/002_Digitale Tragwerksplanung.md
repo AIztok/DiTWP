@@ -20,11 +20,21 @@ Der die Tragwerksplanung Ausführende ist der Tragwerksplaner, oft auch synonym 
 ## Leistungsphasen der Tragwerksplanung
 
 - LPH 1: Grundlagenanalyse
--  LPH 2: Vorentwurf
+- LPH 2: Vorentwurf
 - LPH 3: Konstruktionsentwurf
 - LPH 4: Einreichplanung
 - LPH 5: Ausführungsplanung
--  LPH 6: Ausschreibungs (LVs) und Mitwirkung an der Vergabe
+- LPH 6: Ausschreibungs (LVs) und Mitwirkung an der Vergabe
+
+In jeder dieser Leistungsphasen kann der Tragwerksplaner beigezogen werden.
+Jede dieser LPH hat ihren Fokus und 
+
+Hier liegt auch die große Herausforderung, zu mindestens nach der Erfahrung des Autors, für die Planer das BIM-Konzept mit den etablierten und auch sinnvollen Teilung der Leistungsphasen zu vereinen, ohne in Details zu versinken wo diese noch nicht eindeutig definiert sind, da nicht wichtig oder einfach nicht vorhanden in der jeweilige Leistungsphase. Die Welt ist oft "messy".
+
+Was im jeden Fall hilft und in dieser LVA vermittelt werden soll:
+- ist eine strukturierte Arbeit, speichern von Informationen
+- parametrisch aufgebaute Modelle, die Anpassungen ohne größere Aufwände ermöglichen 
+- leichtes Teilen von vorhandenen Informationen (Modellen, Ergebnissen) mit anderen Projektbeteiligten um Fehler, Konflikte frühzeitig zu erkennen
 
 # Was ist Digital?
 

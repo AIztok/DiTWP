@@ -1,10 +1,13 @@
 ---
 title: 003_Literatur
 draft: false
-tags: []
+tags:
+  - "#DiTWP"
 ---
+# Allgemein
 
-Wie aus der kurzen Listen unten ersichtlich, gibt es zum Thema Digitale Tragwerksplanung 
+Es gibt für die LVA keine zwingende Literatur, die die Studierenden lesen müssen. Das bedeutet nicht, dass es für das Gebiet digitale Tragwerksplanung keine sinnvolle Literatur gibt. Sehr viel gute Inhalte zu dem Thema sind online verfügbar (als Videos oder Internetseiten) und werden auch in den einzelnen Kapiteln verlinkt.
+
 # 000 Einführung
 
 - Neil Gershenfeld, Alan Gershenfeld, Joel Cutcher-Gerhenfeld: [Designing reality](https://designingreality.org/)
