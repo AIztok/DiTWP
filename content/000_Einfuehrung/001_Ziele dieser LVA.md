@@ -62,7 +62,6 @@ Was wird in der Übung ([[312_UE]]) vermittelt:
 
 # 4. Informationen werden Realität
 
-
 Was wird in der Vorlesung ([[411_VO]]) vermittelt:
 - Exportieren der Daten der Tragwerksplanung für die Verwendung von Dritten (z.B. Herstellung)
 - Wie können wir LLM (Large Language Modelle) in unserer Arbeit nutzen
