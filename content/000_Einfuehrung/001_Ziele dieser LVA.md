@@ -33,10 +33,6 @@ Was wird in der Übung ([[112_UE]]) vermittelt:
 Was wird in der Vorlesung ([[121_VO]]) vermittelt:
 - Datenstrukturen in verschiedenen Datenformaten zeigen
 
-Was wird in der Übung ([[122_UE]]) vermittelt :
-- Einlesen von CSV und XLSX Dateien in Rhino/Grasshopper
-- JSON Dateien in Grasshopper, SOFiSTiK
-
 # 2. Informationen generieren
 
 Um Informationen bearbeiten zu können oder mit anderen Projektbeteiligten zu teilen, ist es auch notwendig diese zu erstellen. Da wir , wird in diesem Teil der Fokus auf die Erstellung eines Finite-Elemente Modells anhand des parametrischen Geometriemodells.
