@@ -62,7 +62,11 @@ Wie man an der unteren Matrize sieht, gibt es jetzt 12 x 12 Felder für ein Stab
 
 # Beispiel des Halbrahmens
 
-Die Finite Elemente Berechnung des Übungsbeispiel von Grund auf, kann hier eingesehen werden: 
+Die Finite Elemente Berechnung des Übungsbeispiel von Grund auf, kann hier eingesehen werden:
+
+[Link zu Google Colab](https://colab.research.google.com/drive/1Yio_5SlEL6frEUguNEkPdDJhUXO9Q-f7?usp=sharing)
+
+oder über Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AIztok/FH_Jupyter/main?labpath=FH_SBB_FEM_Example.ipynb)
 
