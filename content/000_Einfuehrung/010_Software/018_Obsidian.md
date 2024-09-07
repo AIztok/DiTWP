@@ -30,6 +30,14 @@ Mehr über die Funktionen von Obsidian kann [hier](https://help.obsidian.md/Obsi
 Obsidian ermöglicht Verbindungen zwischen einzelnen Notizen zu erstellen. 
 Mehr dazu [hier](https://help.obsidian.md/Linking+notes+and+files/Internal+links).
 
+## PDF Erstellen
+
+Einzelne Notizen können direkt im Obsidian ins PDF exportiert werden.
+Rechtclick auf den Reiter oben, Export do PDF:
+
+![[018_Obsidian_export_pdf.png|300]]
+
+Mehr zum Export ins PDF [hier](https://updf.com/knowledge/obsidian-export-to-pdf/).
 # Weitere Unterlagen
 
 Sehr umfassender Youtube-kanal zu Personal Knowledge Databases und Obsidian:
