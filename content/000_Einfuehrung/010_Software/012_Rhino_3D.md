@@ -30,19 +30,13 @@ Food4Rhino ist ein Portal wo Entwickler ihre Add-On (integrierte Zusatzprogramme
 
 ## Anmelden
 Es ist notwendig einen Account auf Food4Rhino zu erstellen. Die Anmeldung ist kostenlos. Über Food4Rhino können kostenlose und bezahlbare AddOn's heruntergeladen / gekauft werden.
-## Add-On die wir benötigen
-
-Für unsere Übung (siehe [[412_UE]]) werden wir das Add-On [Pterodactyl](https://www.food4rhino.com/en/app/pterodactyl?lang=de) nutzen.
-Bitte die Version 2.0.0 oder neuere herunterladen.
-
-![[Pasted image 20240524162846.png]]
-
-
-## Installieren des Add-On's
-
 
 # Weitere Unterlagen
 
 ## Interessante Add-Ons
 
+### Lunchbox
 https://www.food4rhino.com/en/app/lunchbox
+
+### TT-Toolbox
+https://www.food4rhino.com/en/app/tt-toolbox

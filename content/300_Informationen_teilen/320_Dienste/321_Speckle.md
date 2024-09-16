@@ -60,8 +60,6 @@ Hier die Anweisung zum installieren (über Speckle Manager) und aktivieren des A
 
 # Projects / Modells / Branches 
 
-
-
 https://speckle.guide/user/concepts.html#what-are-branches
 
 
