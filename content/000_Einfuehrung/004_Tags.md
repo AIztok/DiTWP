@@ -22,5 +22,6 @@ In den Unterlagen werden folgende Tags verwenden. Die Tags ermöglichen schnell 
 | Comma separated values                 | #CSV    |
 | 3D Modellieren                         | #3D     |
 | Markdown                               | #md     |
+| Fabrication                            | #FAB    |
 
 
