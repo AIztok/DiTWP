@@ -47,8 +47,18 @@ $$
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HNFF_EeFr9Y?si=ZdDDSdOY_Kyv7z3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-12. Bruchlinie zeichnen mit drei Bindestrichen "---"
+15. Bruchlinie zeichnen mit drei Bindestrichen "---"
 ---
+
+16. Die Bildgröße kann durch |xyz (xyz ist die Anzahl der Pixel) geändert werden:
+Z.B.: Bild.png|100
+
+100 pixel
+![[136_Rhino_elements.png|100]]
+200 pixel
+![[136_Rhino_elements.png|200]]
+350 pixel
+![[136_Rhino_elements.png|350]]
 
 # Weitere Unterlagen
 
