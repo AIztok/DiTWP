@@ -32,6 +32,12 @@ Das BVBS-Format wird vor allem in der Planung und Ausführung von Stahlbetonarbe
 
 Das BVBS-Format ist also ein wesentlicher Bestandteil moderner, digitalisierter Bauprozesse im Bereich der Bewehrung und trägt zur Effizienz und Qualitätssicherung in der Bauindustrie bei.
 
+# Richtlinie
+
+Hier kann die BVBS Richtlinie heruntergeladen werden:
+
+[BVBS-Richtlinie Datenaustausch von Bewehrungsdaten](https://www.bvbs.de/wp-content/uploads/2024/01/BVBS-Richtlinie-Austausch-von-Bewehrungsdaten-3.1-Dt_202100614.pdf)
+
 # Software
 
 Der Export in das BVBS Format ist von praktisch allen gängigen Bewehrungsprogrammen möglich (2D oder 3D).

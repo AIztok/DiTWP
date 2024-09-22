@@ -1,3 +1,10 @@
+---
+title: 221_Finite_Elemente_Methode
+draft: false
+tags:
+  - "#FEM"
+  - "#CAE"
+---
 
 # Einführung in die Finite-Elemente-Methode (FEM)
 

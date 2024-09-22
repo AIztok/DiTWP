@@ -13,6 +13,16 @@ tags:
 
 **BlenderBIM** ist ein Add-on für Blender, das die Erstellung und Verwaltung von Building Information Models (BIM) direkt in Blender ermöglicht im Sinne von *Native IFC* (siehe [[111_VO#Native IFC]].
 Das Add-on bietet Werkzeuge für die Erstellung von architektonischen, strukturellen und MEP-Elementen (Mechanical, Electrical, and Plumbing) und unterstützt den gesamten Lebenszyklus eines Bauwerks von der Planung über die Konstruktion bis zur Instandhaltung. BlenderBIM zielt darauf ab, die Flexibilität und Leistungsfähigkeit von Blender in den Bereich der Bauindustrie zu bringen und gleichzeitig die Vorteile von Open-Source-Software zu nutzen.
+
+---
+**Hinweis**
+BlenderBIM ist jetzt Bonsai:
+https://bonsaibim.org/index.html
+
+Bonsai kann für Blender Version 4.2 installiert werden. 
+
+---
+
 # Installation 
 
 Blender und das BlenderBIM sind freeware und open source.
