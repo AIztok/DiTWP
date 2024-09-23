@@ -1,5 +1,5 @@
 ---
-title: 423_G-code_n
+title: 423_G-code
 draft: false
 tags:
   - FAB
