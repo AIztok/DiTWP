@@ -33,10 +33,20 @@ Es ist notwendig einen Account auf Food4Rhino zu erstellen. Die Anmeldung ist ko
 
 # Weitere Unterlagen
 
+## Add-ons die wir verwenden
+
+### TT-Toolbox
+https://www.food4rhino.com/en/app/tt-toolbox
+Die Toolbox kann direkt vom Browser installiert werden.
+
+Bei der Übung [[212_UE]] wird das TT-Toolbox für den Export und Import von Excel Dateien verwendet.
+
+### Speckle
+Wir werden die Komponenten von Speckle verwenden, diese werden über die Installation von Connectors installier, siehe [[321_Speckle]].
+
 ## Interessante Add-Ons
 
 ### Lunchbox
 https://www.food4rhino.com/en/app/lunchbox
 
-### TT-Toolbox
-https://www.food4rhino.com/en/app/tt-toolbox
+

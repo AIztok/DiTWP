@@ -127,7 +127,11 @@ Danach kann z.B. das geometrische Modell im Rhino weiter bearbeitet und/oder ges
 
 Wenn das im Grasshopper parametrisch erstellte Modell "eingebacken" ist, ist es im Rhino nicht mehr parametrisch. Wird die Geometrie im Grasshopper nachträglich verändert, muss das "eingebackene" Modell im Rhino gelöscht oder augeschaltet (Layer) werden.
 
-![[Pasted image 20240531095959.png]]
+## Am Canvas existierende Komponente in der Befehlsleiste finden
+
+Wenn man eine Komponente am Canvas hat, aber die nicht in der Befehlsleiste mehr findet, dann:
+`STEU+ALT` halten und auf die Komponente drucken, dann wird es angezeigt.
+
 # Datenstruktur
 
 Wesentlich für einen parametrischen Entwurf ist die Datenstruktur. Gut und sinnvoll strukturierte Daten sind der Grundstein eines parametrischen Modells.
@@ -174,6 +178,60 @@ Detaillierte Erläuterung zu Datenbäumen im Grasshopper:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SmNPxKTDcQI?si=Au2TvnNHG4MnQoFe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+## Input / Output Modifiers
+
+Der untere Text und Abbildungen wurden von [hier übernommen](https://www.grasshopper3d.com/forum/topics/what-are-the-icons-on-a-component-s-input-output-parameter)und ins Deutsch übersetzt - besser kann man es nicht erklären :).
+
+### I/O Modifiers und was die machen
+
+Die I/O-Modifikatoren können über das Rechtsklick-Kontextmenü entweder auf die Eingabe- oder Ausgabeparameter einer Komponente angewendet werden. Mit Ausnahme von "Principal" und "Degrees" funktionieren sie genauso wie ihre entsprechenden Grasshopper-Komponenten. Wenn ein I/O-Modifikator auf einen Parameter angewendet wird, erscheint ein visuelles Tag (Symbol). Wenn man über ein Tag schwebt, wird ein Tooltip angezeigt, der erklärt, was es ist und was es tut.
+
+![[013_GH_I-O.png]]
+
+### Principal  
+Eine Eingabe mit dem Principal-Symbol wird als Haupteingabe einer Komponente für die Zwecke der Pfadzuteilung festgelegt.
+Beispiel:
+
+![[013_GH_I-O_Principal.png]]
+
+### Reverse  
+Der Reverse I/O-Modifikator kehrt die Reihenfolge einer Liste (oder von Listen in einer Mehrpfadstruktur) um.
+
+![[013_GH_I-O_reverse.png]]
+
+### Flatten  
+Der Flatten I/O-Modifikator reduziert einen Mehrpfad-Baum auf eine einzelne Liste im Pfad {0}.
+
+![[013_GH_I-O_flatten.png]]
+
+### Graft  
+Der Graft I/O-Modifikator erstellt für jedes einzelne Element in einer Liste (oder in mehreren Listen) einen neuen Zweig.
+
+![[013_GH_I-O_graft.png]]
+
+### Simplify  
+Der Simplify I/O-Modifikator entfernt die überlappenden Teile, die alle Zweige gemeinsam haben. Hinweis: Ein einzelner Zweig hat keine Überlappung mit anderen.
+
+![[013_GH_I-O_simplify.png]]
+
+
+### Degrees  
+Der Degrees Eingabe-Modifikator zeigt an, dass die empfangenen Zahlen tatsächlich in Grad und nicht in Radiant gemessen werden. Man kann dies als eine Präferenz für jede Winkeleingabe einer Grasshopper-Komponente verstehen, die angibt, dass man lieber in Grad arbeitet. Es gibt keine Ausgabeoption, da dies nur für Winkeleingaben verfügbar ist.
+
+![[013_GH_I-O_degrees.png]]
+
+### Expression  
+Der Expression I/O-Modifikator erlaubt es, den Eingabewert durch die Auswertung eines Ausdrucks wie -x/2 zu ändern, wodurch die Eingabe negativ gemacht wird. Wenn man über das Tag schwebt, wird ein Tooltip mit dem Ausdruck angezeigt. Seit der Veröffentlichung der GH-Version 0.9.0068 verwenden alle I/O-Expressionsmodifikatoren „x“ anstelle des Kürzels des Parameters.
+![[013_GH_I-O_expression.png]]
+
+### Reparameterize  
+Der Reparameterize I/O-Modifikator funktioniert nur bei Linien, Kurven und Flächen und zwingt die Domänen aller Geometrien in den Bereich (0.0 bis 1.0).
+![[013_GH_I-O_reparameterize.png]]
+
+### Invert  
+Der Invert Eingabe-Modifikator funktioniert ähnlich wie ein Nicht-Gatter in der booleschen Logik und negiert die Eingabe. Ein gutes Beispiel dafür ist der (Cull Pattern), bei dem man die Logik invertieren möchte, um die gegenteiligen Ergebnisse zu erhalten. Es gibt keine Ausgabeoption, da dies nur für boolesche Eingaben verfügbar ist.
+![[013_GH_I-O_invert.png]]
 
 
 
