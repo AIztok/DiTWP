@@ -44,6 +44,12 @@ Bei der Übung [[212_UE]] wird das TT-Toolbox für den Export und Import von Exc
 ### Speckle
 Wir werden die Komponenten von Speckle verwenden, diese werden über die Installation von Connectors installier, siehe [[321_Speckle]].
 
+
+### Excel+
+
+Als alternative zu TT-Toolbox fürs speichern von Daten in Excel format kann auch Excel+ verwendet werden:
+https://www.food4rhino.com/en/app/excel
+
 ## Interessante Add-Ons
 
 ### Lunchbox
