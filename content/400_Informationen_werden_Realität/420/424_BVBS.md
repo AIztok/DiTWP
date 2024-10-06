@@ -13,6 +13,10 @@ Das **BVBS-Format** ist ein standardisiertes Datenformat, das von dem [Bundesver
 
 Das BVBS-Format wurde entwickelt, um die Kommunikation und den Datenaustausch zwischen verschiedenen Akteuren im Bauwesen, insbesondere zwischen Planern, Statikern und ausführenden Unternehmen, zu standardisieren. Es ermöglicht eine nahtlose Übertragung von Biegeplänen und Stücklisten von der Planungssoftware direkt an die Biegemaschinen, ohne dass eine manuelle Dateneingabe erforderlich ist.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/llc576PmdUg?si=_VxAcB63eNycvJYy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tgY5XuqwYbs?si=IWRbyuRV0Zu47bKn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ### Technische Details
 
 - **Dateiformat:** Das BVBS-Format ist in der Regel eine Textdatei mit der Endung `.abs` oder `.bvbs`.
@@ -44,5 +48,13 @@ Der Export in das BVBS Format ist von praktisch allen gängigen Bewehrungsprogra
 
 Zur Visualisierung der Bewehrungsangaben sind auch Viewer erhältlich:
 
+z.B.:
+https://buildingpoint-scandinavia.com/blog/free-download-of-bvbs-viewer
+
+![[424_BVBS_gif.gif]]
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SX3_53XH8Q8?si=Ca_E8YuABvRdrNyp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+

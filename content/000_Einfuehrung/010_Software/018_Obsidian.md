@@ -38,6 +38,12 @@ Rechtclick auf den Reiter oben, Export do PDF:
 ![[018_Obsidian_export_pdf.png|300]]
 
 Mehr zum Export ins PDF [hier](https://updf.com/knowledge/obsidian-export-to-pdf/).
+
+## Better Export PDF
+
+Mehr Optionen bittet der Plugin Better Export PDF 
+https://github.com/l1xnan/obsidian-better-export-pdf
+
 # Weitere Unterlagen
 
 Sehr umfassender Youtube-kanal zu Personal Knowledge Databases und Obsidian:
