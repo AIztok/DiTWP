@@ -48,7 +48,6 @@ Der Export in das BVBS Format ist von praktisch allen gängigen Bewehrungsprogra
 
 Zur Visualisierung der Bewehrungsangaben sind auch Viewer erhältlich:
 
-z.B.:
 https://buildingpoint-scandinavia.com/blog/free-download-of-bvbs-viewer
 
 ![[424_BVBS_gif.gif]]

@@ -215,3 +215,18 @@ Gelenke definieren die Bewegung zwischen den Gliedern. In diesem Beispiel verwen
 
 
 Diese einfache URDF-Datei beschreibt einen grundlegenden Roboterarm mit zwei zylindrischen Gliedern, die durch Drehgelenke verbunden sind. Die Glieder werden durch visuelle und geometrische Eigenschaften beschrieben, während die Gelenke die relative Bewegung zwischen diesen Gliedern definieren. 
+
+
+
+
+
+
+
+Simulator
+
+https://rocksi.net/
+
+
+
+
+https://think.cs.vt.edu/blockpy/
