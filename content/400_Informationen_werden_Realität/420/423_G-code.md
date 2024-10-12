@@ -3,6 +3,7 @@ title: 423_G-code
 draft: false
 tags:
   - FAB
+  - CAM
 ---
 # Allgemein
 
@@ -43,12 +44,23 @@ M30        ; Programm beenden
 
 # Beispiel des G-Codes 
 
+## 3D-Druck
+
 Durch das einlesen eines geometrischen Modells, z.B. aus .stp oder .stl (siehe [[136_STEP&STL]]) erstellt, beispielhaft eine Slicer Software, einen G-Code.
 
 Der G-code für den 3D-Druck des einfachen Modells:
 https://raw.githubusercontent.com/AIztok/DiTWP_Data/main/423/DiTWP_Habrahmen_slicer.gcode
 
 ![[423_3D-Druck_slicer.gif]]
+
+## CNC
+
+Der [ncviewer.com](https://ncviewer.com/) ermöglich auch eine Visualisierung der Angabe an eine CNC Maschiene. 
+
+Der NC Code für "DITWP" kann [hier heruntergeladen werden](https://github.com/AIztok/DiTWP_Data/blob/main/423/NCViewer_Example_DITWP.nc).
+
+![[423_NC-Viewer_Example_DITWP.gif]]
+
 
 # Weitere Unterlagen
 ## G-code 3D Druck

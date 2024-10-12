@@ -3,6 +3,7 @@ title: 424_BVBS
 draft: false
 tags:
   - "#FAB"
+  - CAM
 ---
  
 # Allgemein
@@ -53,7 +54,23 @@ https://buildingpoint-scandinavia.com/blog/free-download-of-bvbs-viewer
 ![[424_BVBS_gif.gif]]
 
 
+# Beispiel
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SX3_53XH8Q8?si=Ca_E8YuABvRdrNyp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Folgend wir dargestellt, wie für eine reale Bewehrungsposition das erstellte .abs gem. BVBS ausschaut.
 
+Bewehrungsplan liegt [hier](https://github.com/AIztok/DiTWP_Data/blob/main/424/301702311-316-F0-510-10.033-FCD_%20Bewehrung%20Endquertr%C3%A4ger%20-%20RFB%20Villach.pdf).
+
+Position 18:
+
+![[424_BVBS_Bewehrungspos.png]]
+Stahlliste:
+
+![[424_BVBS_Stahlliste.png]]
+
+
+Die .abs Datei vom Plan ist [hier abgelegt](https://github.com/AIztok/DiTWP_Data/blob/main/424/301702311-316-F0-510-10.033-FCD_%20Bewehrung%20Endquertr%C3%A4ger%20-%20RFB%20Villach.abs).
+
+Wenn die kodierung für die Positione 18 im Viewer einkopiert wird:
+
+![[424_BVBS_Viewer_pos18.png]]
 
