@@ -5,8 +5,11 @@ tags:
   - "#LLM"
 ---
  
-**IN BEARBEITUNG**
+# Text zu Cad
 
+
+
+[Zoo text to CAD](https://zoo.dev/text-to-cad) 
 
 # Weitere Unterlagen
 
