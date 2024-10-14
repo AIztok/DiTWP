@@ -1,6 +1,6 @@
 ---
 title: 426_Robotik
-draft: false
+draft: true
 tags:
   - CAM
   - FAB
@@ -230,3 +230,17 @@ https://rocksi.net/
 
 
 https://think.cs.vt.edu/blockpy/
+
+
+
+### IFC und Robotik
+
+Potentieller Workflow von BIM zu Robotik:
+
+**Herausforderungen und Chancen:**
+
+- **Datenkonvertierung:** Obwohl BIM und IFC reichhaltige Daten liefern, bleibt die Umwandlung dieser Informationen in roboterlesbare Formate wie G-Code oder proprietäre Robotersteuerungssprachen eine Herausforderung. Dies erfordert oft Zwischensoftware oder maßgeschneiderte Tools.
+- **Semantische Daten in IFC:** IFC enthält nicht nur Geometrie, sondern auch semantische Informationen (z. B. was eine Wand oder ein Träger in Bezug auf die tragende Funktion darstellt). Die Nutzung dieser semantischen Daten für robotische Entscheidungen (z. B. das Erkennen der strukturellen Bedeutung) ist ein aufstrebendes Feld.
+- **Integration mit Robotik:** Mit dem Wachstum der Baurobotik gibt es Potenzial für eine engere Integration zwischen BIM-Software und Robotersteuerungssystemen, wodurch noch mehr des Prozesses von der Planung bis zur Konstruktion automatisiert werden kann.
+
+**Fazit:** Obwohl das IFC-Format und BIM-Modelle nicht direkt roboterlesbar sind, dienen sie als wertvolle Datenquelle, um robotische Aufgaben in der Konstruktion und Vorfertigung zu automatisieren. Die Verbindung erfolgt typischerweise über Zwischentools wie CAM-Software, um die BIM-Daten in umsetzbare Roboterbefehle zu konvertieren. Mit der wachsenden Nutzung von Robotern in der Bauindustrie wird die BIM-zu-Roboter-Pipeline immer wichtiger für die Automatisierung von Aufgaben wie 3D-Druck, Vorfertigung und robotergestützter Montage von Bauteilen.

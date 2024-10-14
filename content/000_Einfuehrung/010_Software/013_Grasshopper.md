@@ -235,14 +235,7 @@ Der Invert Eingabe-Modifikator funktioniert ähnlich wie ein Nicht-Gatter in der
 
 
 
-# Grasshopper und LLMs
 
-Der Grasshopper Plug-In **GHPT** ermöglicht anhand von Prompts in [natürlicher Sprache](https://de.wikipedia.org/wiki/Nat%C3%BCrliche_Sprache) Komponenten Blocks zu erstellen.
-Der Plug-In kann über [Food4Rhino/GHPT](https://www.food4rhino.com/en/app/ghpt?_gl=1*apv80h*_up*MQ..*_ga*MTUxNTc0NzUwMS4xNzE5NjMxMDE3*_ga_FE9QK9PL3L*MTcxOTYzMTAxNi4xLjEuMTcxOTYzMTkwOS4wLjAuMA) installier werden.
-
-Mehr Anweisung zum [GitHub/GHPT](https://github.com/enmerk4r/GHPT).
-
-Für die Nutzung ist ein API Key von OpenAI erforderlich, siehe [[411_VO]] .
 
 # Weitere Unterlagen
 

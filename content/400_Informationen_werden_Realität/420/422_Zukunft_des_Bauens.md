@@ -8,14 +8,21 @@ tags:
 
 ## Robotik
 
+### MIT Assembler robots
+
 [MIT - Assembler Robots](https://news.mit.edu/2022/assembler-robots-structures-voxels-1122)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G94FDMGLwCc?si=aXx0YdpqYNsO8FL6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Holzbau mit Robotern
 
 [BOKU Robot Lab](https://boku.ac.at/baunat/ihb/labore/roboterlabor)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fdj7iMvfGwQ?si=kWW83dZayZlRbJNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Formen von Blechen mit Robotern
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VcYWzP8hj7E?si=r1bXvidklloO1DK7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Digitalisiertes Bauen
