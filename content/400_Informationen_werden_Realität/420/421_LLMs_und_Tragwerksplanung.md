@@ -35,13 +35,13 @@ Für die Nutzung ist ein API Key von OpenAI erforderlich.
 
 Hier nach `ai-assistants` suchen und installieren.
 
-![[Pasted image 20241013130107.png]]
+![[421_LLM_AI-Assistant_Bild_1.png]]
 
 3. Rhino neu starten
 
 Jetzt sollte ai assistants sichtbar sein
 
-![[Pasted image 20241013130415.png]]
+![[421_LLM_AI-Assistant_Bild_2.png]]
 
 ## Video
 

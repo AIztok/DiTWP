@@ -12,7 +12,7 @@ Das **NC-DSTV**-Format ist ein Standard in der Stahlbauindustrie und dient zur B
 
 [Hier zu DSTV 109 RiLI](https://dstv.deutscherstahlbau.de/fileadmin/user_upload/bauforumstahl.de/wissen/normen-und-richtlinien/bfs-richtlinien/109_Standartbeschreibung_von_Stahlbau-Teilen_8.0.pdf)
 
-![[Pasted image 20241013134256.png]]
+![[425_dstv-nc_Bild_1.png]]
 Bildquelle [Klietsch](https://klietsch.com/?m=page&action=240827)
 
 # Struktur des Formats
