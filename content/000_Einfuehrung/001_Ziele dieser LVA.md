@@ -9,6 +9,7 @@ tags:
 <iframe 
 height = 400
 width = 100%
+allow ="fullscreen"
 src="https://aiztok.github.io/DiTWP_slides/001_Einleitung/index.html"></iframe>
 
 
