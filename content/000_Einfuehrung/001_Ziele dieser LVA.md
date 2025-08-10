@@ -6,15 +6,6 @@ tags:
 ---
 
 # Präsentation
-<iframe 
-height = 400
-width = 100%
-src="https://aiztok.github.io/DiTWP_slides/001_Einleitung/index.html">
-allow ="fullscreen"
-allowfullscreen
-</iframe>
-
-
 
 <iframe
   id="slides-001"
