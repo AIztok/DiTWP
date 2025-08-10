@@ -41,7 +41,7 @@ Das BVBS-Format ist also ein wesentlicher Bestandteil moderner, digitalisierter 
 
 Hier kann die BVBS Richtlinie heruntergeladen werden:
 
-[BVBS-Richtlinie Datenaustausch von Bewehrungsdaten](https://www.bvbs.de/wp-content/uploads/2024/01/BVBS-Richtlinie-Austausch-von-Bewehrungsdaten-3.1-Dt_202100614.pdf)
+[BVBS-Richtlinie Datenaustausch von Bewehrungsdaten](https://github.com/AIztok/DiTWP_Data/blob/main/424/BVBS-Richtlinie-Austausch-von-Bewehrungsdaten-3.1-Dt_202100614.pdf)
 
 # Software
 

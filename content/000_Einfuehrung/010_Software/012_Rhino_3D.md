@@ -56,3 +56,14 @@ https://www.food4rhino.com/en/app/excel
 https://www.food4rhino.com/en/app/lunchbox
 
 
+# Basisbefehle
+
+## Default Template
+
+Da wir in Metern an großen Objekten arbeiten werden, ist es sinnvoll die "Default Template" auf "Large Objects - Meters" einzustellen:
+
+File / New (Datei / Neue Datei):
+
+Auswählen und ankreuzen "Use this file when Rhino starts", danach "Öffnen"
+
+![[012_Rhino_DefaultTemplate.png]]

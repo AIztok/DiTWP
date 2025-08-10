@@ -16,7 +16,7 @@ Ermittlung der Schnittgrößen, Verformungen und Bemessung mit einer Finite Elem
 
 # BIM Modell erstellen und modifizieren
 
-Lesen und Bearbeiten von IFC Modellen mittels [[015_Blender & BlenderBIM]].
+Lesen und Bearbeiten von IFC Modellen mittels [[015_Blender & BonsaiBIM]].
 
 # Kollaboration 
 

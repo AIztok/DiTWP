@@ -60,6 +60,15 @@ Z.B.: Bild.png|100
 350 pixel
 ![[136_Rhino_elements.png|350]]
 
+17. Griechische Buchstaben
+$ (dollar) + \ (Schrägstrich) + Buchstabe + $ (dollar)
+$\alpha$ ($ \ alpha $)
+$\beta$ (beta)
+$\gamma$ (gamma)
+$\epsilon$ (epsilon)
+$\phi$ (Phi)
+$\theta$ (theta)
+$\omega$ (omega)
 # Weitere Unterlagen
 
 Erläuterung der Markdown Sprache:
