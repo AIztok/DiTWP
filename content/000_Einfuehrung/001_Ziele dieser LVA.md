@@ -9,10 +9,32 @@ tags:
 <iframe 
 height = 400
 width = 100%
+src="https://aiztok.github.io/DiTWP_slides/001_Einleitung/index.html">
 allow ="fullscreen"
-src="https://aiztok.github.io/DiTWP_slides/001_Einleitung/index.html"></iframe>
+allowfullscreen
+</iframe>
 
 
+
+<iframe
+  id="slides-001"
+  src="https://aiztok.github.io/DiTWP_slides/001_Einleitung/"
+  width="100%"
+  height="400"
+  style="border:0"
+  allow="fullscreen"
+  allowfullscreen
+></iframe>
+
+<button id="slides-001-fs">Fullscreen</button>
+
+<script>
+document.getElementById('slides-001-fs').addEventListener('click', () => {
+  const el = document.getElementById('slides-001');
+  if (el.requestFullscreen) el.requestFullscreen();
+  else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen(); // Safari fallback
+});
+</script>
 
 # 0. Allgemein 
 
