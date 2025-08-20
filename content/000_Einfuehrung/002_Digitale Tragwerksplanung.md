@@ -5,6 +5,33 @@ tags:
   - "#DiTWP"
 ---
 
+
+
+# Was ist Digital?
+
+Trocken beschrieben bezieht sich *digital* auf die Darstellung von Informationen in einer binären Form, die von Computern "verstanden" und verarbeitet werden kann. Dabei werden Daten in Form von Einsen und Nullen (Bits) kodiert. Diese digitale Darstellung ermöglicht eine präzise und effiziente Speicherung, Verarbeitung und Übertragung von Informationen. Im Gegensatz zur analogen Darstellung, die kontinuierlich und oft variabel ist, sind digitale Informationen diskret und können einfach vervielfältigt, bearbeitet und fehlerfrei übertragen werden. Digitale Technologie bildet die Grundlage moderner Computer, Smartphones, Netzwerke und vieler anderer elektronischer Geräte und Systeme, die unser tägliches Leben prägen.
+
+Aber im etwas weiteren Sinne gibt es die digitalen Prinzipien auch in der Natur, z.B. in der genetischen Information.
+DNA nutzt diskrete Einheiten (Nukleotide), um biologische Informationen zu codieren, was Fehlerkorrekturmechanismen während der DNA-Replikation ermöglicht. Dieser digitalähnliche Prozess in der Genetik sichert die Genauigkeit der Informationsübertragung über Generationen hinweg und zeigt eine Parallele zwischen natürlichen Systemen und menschlich entwickelten digitalen Systemen (siehe [Shannon's theorem](https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem)).
+Die DNA wird bei der Entstehung und Entwicklung von Lebewesen Milliarden Mal kopiert und das praktisch fehlerfrei bzw. nur mit kleinen genetischen Mutationen.
+
+Im weiten Sinne bedeutet also **Digital** im Bezug auf diese Lehrveranstaltung (die vier Prinzipien wurden von Gershenfeld ([[003_Literatur]]) übernommen): 
+
+**Reliability - Zuverlässigkeit**: Fehlerkorrektur möglich, werden durch die Weiterbearbeitung der Informationen die Fehler multipliziert und immer größer, oder kann wird ein Prozess bzw. Algorithmus verwendet, wo eine Fehlerkorrektur stattfinden kann.
+
+**Modularity - Modularität**: Modularität beschreibt ein Designprinzip, bei dem ein System in kleinere, unabhängige Module zerlegt wird. Jedes Modul erfüllt eine spezifische Funktion und kann unabhängig von anderen Modulen entwickelt, getestet und gewartet werden. Dies erleichtert nicht nur die Fehlersuche und -behebung, sondern auch die Erweiterung und Anpassung des Systems. Modularität fördert Flexibilität und Wiederverwendbarkeit von Komponenten. 
+
+[Stadium 974](https://www.sbp.de/projekt/stadion-974/) (Bild Quelle [istructe.org](https://www.istructe.org/structural-awards/projects/2022/stadium-974/))
+![[Pasted image 20240728155048.png]]
+
+**Locality - Lokalität**: kein Masterplan, das Produkt wächst und wird immer wieder neu definiert durch die Einzelteile. 
+
+**Reversibility - Reversibilität**: kein Abfall, alles kann wiederverwendet werden. Was ist Abfall: ein Erzeugnis das nicht die Information besitzt oder diese nicht gelesen werden kann, wozu kann das Erzeugnis noch dienen. In der Natur gibt es solche Erzeugnisse nicht. Alles wird von Pflanzen, Tieren wiederverwendet um neues zu erschaffen. 
+Das ist auch einer der großen Ziele der Bauwirtschaft, Bauprodukte und Bauwerke so zu entwerfen und gestalten, dass eine Wiederverwendbarkeit oder Zerlegung in Einzelteile möglich ist.
+Siehe hierzu auch:
+- [ProHolz / Zuschnitt 88 / Bauteilbörsen und Materialdatenbanken](https://www.proholz.at/zuschnitt/88/bauteilboersen-und-materialdatenbanken)
+- [BauKarussell](https://www.baukarussell.at/)
+
 # Was ist Tragwerksplanung?
 
 Für die Definition stützen wir uns auf die [Leistungsmodelle 2023 erarbeitet von Univ.-Prof. DI Hans Lechner](https://www.arching.at/mitglieder/552/leistungsmodelle_20142023.html).
@@ -36,31 +63,6 @@ Was im jeden Fall hilft und in dieser LVA vermittelt werden soll:
 - parametrisch aufgebaute Modelle, die Anpassungen ohne größere Aufwände ermöglichen 
 - leichtes Teilen von vorhandenen Informationen (Modellen, Ergebnissen) mit anderen Projektbeteiligten um Fehler, Konflikte frühzeitig zu erkennen
 
-# Was ist Digital?
-
-Trocken beschrieben bezieht sich *digital* auf die Darstellung von Informationen in einer binären Form, die von Computern "verstanden" und verarbeitet werden kann. Dabei werden Daten in Form von Einsen und Nullen (Bits) kodiert. Diese digitale Darstellung ermöglicht eine präzise und effiziente Speicherung, Verarbeitung und Übertragung von Informationen. Im Gegensatz zur analogen Darstellung, die kontinuierlich und oft variabel ist, sind digitale Informationen diskret und können einfach vervielfältigt, bearbeitet und fehlerfrei übertragen werden. Digitale Technologie bildet die Grundlage moderner Computer, Smartphones, Netzwerke und vieler anderer elektronischer Geräte und Systeme, die unser tägliches Leben prägen.
-
-Aber im etwas weiteren Sinne gibt es die digitalen Prinzipien auch in der Natur, z.B. in der genetischen Information.
-DNA nutzt diskrete Einheiten (Nukleotide), um biologische Informationen zu codieren, was Fehlerkorrekturmechanismen während der DNA-Replikation ermöglicht. Dieser digitalähnliche Prozess in der Genetik sichert die Genauigkeit der Informationsübertragung über Generationen hinweg und zeigt eine Parallele zwischen natürlichen Systemen und menschlich entwickelten digitalen Systemen (siehe [Shannon's theorem](https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem)).
-Die DNA wird bei der Entstehung und Entwicklung von Lebewesen Milliarden Mal kopiert und das praktisch fehlerfrei bzw. nur mit kleinen genetischen Mutationen.
-
-Im weiten Sinne bedeutet also **Digital** im Bezug auf diese Lehrveranstaltung (die vier Prinzipien wurden von Gershenfeld ([[003_Literatur]]) übernommen): 
-
-**Reliability - Zuverlässigkeit**: Fehlerkorrektur möglich, werden durch die Weiterbearbeitung der Informationen die Fehler multipliziert und immer größer, oder kann wird ein Prozess bzw. Algorithmus verwendet, wo eine Fehlerkorrektur stattfinden kann.
-
-**Modularity - Modularität**: Modularität beschreibt ein Designprinzip, bei dem ein System in kleinere, unabhängige Module zerlegt wird. Jedes Modul erfüllt eine spezifische Funktion und kann unabhängig von anderen Modulen entwickelt, getestet und gewartet werden. Dies erleichtert nicht nur die Fehlersuche und -behebung, sondern auch die Erweiterung und Anpassung des Systems. Modularität fördert Flexibilität und Wiederverwendbarkeit von Komponenten. 
-
-[Stadium 974](https://www.sbp.de/projekt/stadion-974/) (Bild Quelle [istructe.org](https://www.istructe.org/structural-awards/projects/2022/stadium-974/))
-![[Pasted image 20240728155048.png]]
-
-**Locality - Lokalität**: kein Masterplan, das Produkt wächst und wird immer wieder neu definiert durch die Einzelteile. 
-
-**Reversibility - Reversibilität**: kein Abfall, alles kann wiederverwendet werden. Was ist Abfall: ein Erzeugnis das nicht die Information besitzt oder diese nicht gelesen werden kann, wozu kann das Erzeugnis noch dienen. In der Natur gibt es solche Erzeugnisse nicht. Alles wird von Pflanzen, Tieren wiederverwendet um neues zu erschaffen. 
-Das ist auch einer der großen Ziele der Bauwirtschaft, Bauprodukte und Bauwerke so zu entwerfen und gestalten, dass eine Wiederverwendbarkeit oder Zerlegung in Einzelteile möglich ist.
-Siehe hierzu auch:
-- [ProHolz / Zuschnitt 88 / Bauteilbörsen und Materialdatenbanken](https://www.proholz.at/zuschnitt/88/bauteilboersen-und-materialdatenbanken)
-- [BauKarussell](https://www.baukarussell.at/)
-
 # Was ist digitale Tragwerksplanung?
 
 Die digitale Tragwerksplanung ist somit das verbinden der Leistungen der Tragwerksplanung mit den Grundprinzipien des digitalen:
@@ -74,7 +76,7 @@ Die digitale Tragwerksplanung ist somit das verbinden der Leistungen der Tragwer
 Ein wesentlicher Teil sind standarisierte Schnittstellen (siehe [[134_IFC]]) und nahtlose Zusammenarbeit mit anderen Menschen ([[311_VO]]) bzw. nutzen von einzelnen (z.B. Komponenten in Grasshopper ([[013_Grasshopper]]).
 
 **Lokalität**
-Dieses Prinzip erscheint im Gegenspruch zu der üblichen Objektplanung zu sein, wo es in der Regel einen "Masterplan" gibt (z.B. Stadtentwicklungsplan -> Architekturplanung -> Tragwerksplanung). Aber dass ist nur von weit im Sinne einer Post-mortem-Analyse betrachtet. Tatsächlich fließen bei Informationen von oben nach unten als auch von unten nach oben, unabhängig von wie "weit" oder "nah" die Prozesse betrachtet werden. Auch in der Objektplanung und Tragwerksplanung kann ein Herstellungsprozess die Form eines Bauteils bestimmen, . Unsere Aufgabe ist es durch das nutzen von digitalen Methoden zu ermöglichen, dass diese Informationen fließen können und somit sinnvolle Entscheidungen getroffen werden können.
+Dieses Prinzip erscheint im Gegenspruch zu der üblichen Objektplanung zu sein, wo es in der Regel einen "Masterplan" gibt (z.B. Stadtentwicklungsplan -> Architekturplanung -> Tragwerksplanung). Aber dass ist nur von weit im Sinne einer Post-mortem-Analyse betrachtet. Tatsächlich fließen bei Informationen von oben nach unten als auch von unten nach oben, unabhängig von wie "weit" oder "nah" die Prozesse betrachtet werden. Auch in der Objektplanung und Tragwerksplanung kann ein Herstellungsprozess die Form eines Bauteils bestimmen. Unsere Aufgabe ist es durch das nutzen von digitalen Methoden zu ermöglichen, dass diese Informationen fließen können und somit sinnvolle Entscheidungen getroffen werden können.
 
 **Reversibilität**
 Den Anspruch auf Reversibilität bei unserer LVA begrenzen wir auf unsere Arbeit, was wir in den Übungen erstellen. 

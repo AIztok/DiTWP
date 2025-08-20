@@ -29,7 +29,7 @@ document.getElementById('slides-001-fs').addEventListener('click', () => {
 
 # 0. Allgemein 
 
-Die LVA fokusiert sich auf folgende Themen:
+Die LVA fokussiert sich auf folgende Themen:
 Wie werden die Informationen:
 1. Informationen erheben und strukturieren 
 2. Informationen bearbeiten

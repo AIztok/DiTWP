@@ -138,15 +138,23 @@ Wesentlich für einen parametrischen Entwurf ist die Datenstruktur. Gut und sinn
 
 ## Einzelelement
 
+Ein Einzelelement kann z.B. eine Zahl sein.
+Die Komponente `Number Slider` erstellt ein Einzelelement, eine Zahl, wie man sieht in der Komponente `Panel` :
 
-
+![[013_GH_Einzelelement_Bspl.png]]
 ## Liste
 
+Wenn wir aber mehrere Elemente haben (Zahlen oder auch Text / Strings), dann schaut das wie folgend aus, wenn wir z.B. eine Liste aus einer Zahlenserie erstellen (Komponente `Series`):
 
+![[013_GH_Liste.png]]
 
 ## Datenbaum (Data tree)
 
-Der Datenbau in Grasshopper ist eine Art  genesteter Daten (Nested List im englisch), einer [hierarchisch strukturierten Datenstruktur](https://de.wikipedia.org/wiki/Hierarchisch_strukturierte_Daten). Nicht zu verwechseln mit 
+Der Datenbau in Grasshopper ist eine Art  genesteter Daten (Nested List im englisch), einer [hierarchisch strukturierten Datenstruktur](https://de.wikipedia.org/wiki/Hierarchisch_strukturierte_Daten).
+
+Anbei ein einfacher Beispiel, wo wir aus der vorherigen Liste Punkte erstellen (Komponente `Construct Point XYZ`) und diese kopieren (`Move`). Dann erstellen wir einen Datenbaum aus zwei Listen:
+
+![[013_GH_Datenbau.png]]
 
 Datenbäume sind eine Methode, um komplexe Datenstrukturen zu organisieren und zu verwalten. Sie erweitern das Konzept von Listen und ermöglichen eine detailliertere und hierarchische Datenverwaltung. Hier ist eine Übersicht, warum Datenbäume nützlich sind und wie sie sich im Vergleich zu normalen Listen darstellen:
 
@@ -232,9 +240,6 @@ Der Reparameterize I/O-Modifikator funktioniert nur bei Linien, Kurven und Fläc
 ### Invert  
 Der Invert Eingabe-Modifikator funktioniert ähnlich wie ein Nicht-Gatter in der booleschen Logik und negiert die Eingabe. Ein gutes Beispiel dafür ist der (Cull Pattern), bei dem man die Logik invertieren möchte, um die gegenteiligen Ergebnisse zu erhalten. Es gibt keine Ausgabeoption, da dies nur für boolesche Eingaben verfügbar ist.
 ![[013_GH_I-O_invert.png]]
-
-
-
 
 
 # Weitere Unterlagen
