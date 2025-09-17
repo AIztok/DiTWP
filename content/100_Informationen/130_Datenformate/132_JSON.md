@@ -15,9 +15,69 @@ Mehr über JSON auf [w3schools](https://www.w3schools.com/whatis/whatis_json.asp
 
 Bei JSON Dateien handelt sich um ASCII Dateien, die in einem Text Editor gelesen und geschrieben werden könne. 
 
+# JSON Schema
+
+Wesentlich bei speichern von JSON Dateien (gilt grundsätzlich für alle Datenformaten) ist ein Schema vorzusehen bzw. zu berücksichtigen falls bereits vorgegeben. Mit Schema ist gemeint wie die Datei aufgebaut ist, damit diese dann auch von Apps / Software korrekt gelesen wird.
+
+Anbei ein Beispiel einer JSON Datei wenn wir z.B. Punkte speichern würden:
+
+```javascript
+{
+  "type": "Punkt",
+  "globalId": "028c968f-687d-484e-9c0a-5048a923b8c4",
+  "name": "Punkt 1",
+  "description": "Startkoordinate",
+  "X Coordinate": 10.2,
+  "Y Coordinate": 20.1,
+  "Z Coordinate": 162.50
+}
+
+```
+
+Und das Schema nach dem die obere Beispieldatei erstellt wurde:
+
+```javascript
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/product.schema.json",
+  "title": "Punkt Beispiel",
+  "description": "Beispiel JSON Schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "globalId": {
+      "type": "string",
+      "maxLength": 36
+    },  
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "string"
+    },
+    "X Coordinate": {
+      "type": "number"
+    },
+    "Y Coordinate": {
+      "type": "number"
+    },
+    "Z Coordinate": {
+      "type": "number"
+    },        
+  }
+}
+```
+
+Um zu überprüfen ob eine JSON Datei einem JSON Schema entspricht gibt kann auch folgende Seite verwendet werden:
+https://www.jsonschemavalidator.net/
+
 # Online Viewer / Editor
 
-Es stehe auch diverse Online Editors zum lesen und bearbeiten von JSON Dateien, wie z.B: der [jsoneditoronline.org](https://jsoneditoronline.org).
+Es stehe auch diverse Online Editors zum lesen und bearbeiten von JSON Dateien, wie z.B. der [jsoneditoronline.org](https://jsoneditoronline.org).
 
 # Beispiel
 
