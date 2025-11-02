@@ -6,8 +6,6 @@ toc: true
 
 [[311_VO]]
 
-[[321_Speckle]]
-
 [[322_Git]]
 
 
