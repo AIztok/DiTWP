@@ -11,25 +11,24 @@ tags:
 
 **Blender** ist eine freie und offene 3D-Computergrafik-Software, die für Modellierung, Rigging, Animation, Simulation, Rendering, Compositing und Motion Tracking verwendet wird. Blender unterstützt auch Video-Editing und Game Creation. Die Software ist bekannt für ihre vielseitigen Werkzeuge und die Fähigkeit, eine Vielzahl von Aufgaben im Bereich der Computergrafik zu bewältigen. Blender wird sowohl von professionellen Künstlern als auch von Hobbyisten verwendet und ist durch seine Open-Source-Natur ständig weiterentwickelt und verbessert worden.
 
-**BlenderBIM** ist ein Add-on für Blender, das die Erstellung und Verwaltung von Building Information Models (BIM) direkt in Blender ermöglicht im Sinne von *Native IFC* (siehe [[111_VO#Native IFC]].
+**BonsaiBIM** ist ein Add-on für Blender, das die Erstellung und Verwaltung von Building Information Models (BIM) direkt in Blender ermöglicht im Sinne von *Native IFC* (siehe [[111_VO#Native IFC]].
 Das Add-on bietet Werkzeuge für die Erstellung von architektonischen, strukturellen und MEP-Elementen (Mechanical, Electrical, and Plumbing) und unterstützt den gesamten Lebenszyklus eines Bauwerks von der Planung über die Konstruktion bis zur Instandhaltung. BlenderBIM zielt darauf ab, die Flexibilität und Leistungsfähigkeit von Blender in den Bereich der Bauindustrie zu bringen und gleichzeitig die Vorteile von Open-Source-Software zu nutzen.
 
 ---
 **Hinweis**
-BlenderBIM ist jetzt Bonsai:
+BonsaiBIM frühere Bezeichnung war BlenderBIM:
 https://bonsaibim.org/index.html
 
-Bonsai kann für Blender Version 4.2 installiert werden. 
+BonsaiBIM kann für Blender Version 4.2 installiert werden. 
 
 ---
 
 # Installation 
 
-Blender und das BlenderBIM sind freeware und open source.
+Blender und das BonsaiBIM sind freeware und open source.
 Die Anleitung zur Installation ist hier zu finden:
-https://docs.blenderbim.org/users/installation.html
+[Installation BonsaiBIM](https://docs.bonsaibim.org/quickstart/installation.html)
 
-Blende 4.1 installieren! (nicht Blender 4.2 LTS)
 
 # Befehle
 Im folgenden werden die wesentlichen Befehle aufgelistet.
@@ -47,10 +46,6 @@ Taste "n": öffnen der Sidebar
 ![[Pasted image 20240614223914.png]]
 
 ## Modellierung
-
-## Erstellen Achsen
-
-
 
 ## Erstellen Ebenen
 

@@ -87,8 +87,8 @@ Was wird in der Vorlesung ([[411_VO]]) vermittelt:
 - Wie können wir LLM (Large Language Modelle) in unserer Arbeit nutzen
 
 Was wird in der Übung ([[412_UE]]) vermittelt:
-- Geometrisches Modell im BlenderBIM einlesen
-- Erstellen des Modells gem. IFC Konvention
-- Export der Modelle
+- Geometrisches Modell in IFC Format aus Rhino/Grasshopper exportieren
+- Dem geometrischen IFC Modell zusätzliche Daten hinterlegen über den Onlinetool IFC Lite.
+- IFC Modell mithilfe von einem LLM bearbeiten
 
 
