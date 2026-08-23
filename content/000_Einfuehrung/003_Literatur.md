@@ -25,11 +25,13 @@ Es gibt für die LVA keine zwingende Literatur, die die Studierenden lesen müss
 
 - Horst Werkle: [Finite Elemente in der Baustatik](https://fembau.de/)
 - [A. Boiko, Data Driven Construction - Navigieren im Datenzeitalter in der Bauindustrie, 2024](https://datadrivenconstruction.io/)
+- Anes Husic: [Statische Analyse im openBIM-Prozess : Entwicklung einer Methode und Realisierung in einem Software-Prototyp](https://repositum.tuwien.at/handle/20.500.12708/205067)]
 
 # 300 Informationen teilen
 
 - Pro Git Book: https://git-scm.com/book/de/v2
 - [Speckle Docs](https://speckle.guide/)
+- [Mikko Stachl: Optimierung des Datenaustauschs in der BIM-basierten Tragwerksplanung mittels des SAF-Formats: Eine Fallstudie mit Allplan, Frilo und SCIA](https://pub.hcw.ac.at/obvfcwhsacc/content/titleinfo/12596166)
 
 # 400 Informationen werden Realität
 

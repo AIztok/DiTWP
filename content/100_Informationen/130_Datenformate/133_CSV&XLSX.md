@@ -8,7 +8,7 @@ tags:
 
 ## CSV
 
-Das Dateiformat CSV steht für englisch Comma-separated values und beschreibt den Aufbau einer Textdatei zur Speicherung oder zum Austausch einfach strukturierter Daten. Die Dateinamenserweiterung lautet .csv. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/CSV_(Dateiformat)))
+Das Dateiformat CSV steht für englisch Comma-separated values und beschreibt den Aufbau einer Textdatei zur Speicherung oder zum Austausch einfach strukturierter Daten. Die Dateinamenserweiterung lautet .csv. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/CSV_(Dateiformat))).
 
 Grundsätzlich ist der CSV Format nicht gedacht für kompliziertere, geschachtelte Datenstrukturen gedacht, hier ist z.B. sinnvoller das JSON ([[132_JSON]]) zu verwenden.
 
@@ -21,7 +21,7 @@ Excel wurde nicht als ein Werkzeug für Datenbanken entwickelt, jedoch wird es i
 
 # Beispiel
 
-Anbei ein Beispiel einer CSV Datei wo die Werte 
+Anbei ein Beispiel einer CSV Datei wo die Werte mittel `;` getrennt werden
 ```
 X;Y;Z
 0;0;0

@@ -8,6 +8,6 @@ tags:
 
 # Allgemein
 
-In der LVA wird Excel verwendet, Alternativen verwendet werden, wie z.B.:
+In der LVA wird Excel verwendet, alternativ können auch folgenden Programme verwendet werden:
 - [LibeOffice](https://www.libreoffice.org/)
 - [Google Workspace](https://workspace.google.com/)

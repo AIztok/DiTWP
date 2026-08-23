@@ -123,8 +123,6 @@ Ergebnis:
 
 ![[Pasted image 20240531095505.png]]
 
-Die Gruppe kann somit 
-
 Mit der Auswahl der Gruppe und einer neuen Komponente (`Shift` halten), Rechtsklick / Add to group, kann die Gruppe erweitert werden:
 
 ![[Pasted image 20240531095628.png]]

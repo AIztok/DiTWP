@@ -174,7 +174,7 @@ Wie man sieht ist das Mesh aus Dreieckelementen, deswegen sind auch die Punkte m
 
 ### Von Grasshopper aufs Speckle
 
-Im Grasshopper wird unter dem Reiter *Speckle 2* und der Komponente *Send* 
+Im Grasshopper wird unter dem Reiter *Speckle 2* und der Komponente *Send* verwenden:
 
 ![[Pasted image 20240530110805.png]]
 

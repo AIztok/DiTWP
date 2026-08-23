@@ -8,5 +8,5 @@ tags:
  
 # Allgemein
 
-Bei der Vorlesung werden die IFC Dateien in [Visual Studio Code](https://code.visualstudio.com/), mit der Extension [IFC Syntax](https://marketplace.visualstudio.com/items?itemName=alanrynne.ifc-syntax) .
+Bei der Vorlesung werden die IFC Dateien in [Visual Studio Code](https://code.visualstudio.com/), mit der Extension [IFC Syntax](https://marketplace.visualstudio.com/items?itemName=alanrynne.ifc-syntax) , geöffnet.
 Eine Installation und Verwendung von Visual Studio Code ist nicht notwendig.
