@@ -35,6 +35,32 @@ Es ist notwendig einen Account auf Food4Rhino zu erstellen. Die Anmeldung ist ko
 
 ## Add-ons die wir verwenden
 
+### DiTWP-Tools
+
+Das DiTWP-Tools kann über den PackageManager von Rhino installiert werden, in der Kommandoleiste `PackageManager` eingeben und Enter:
+
+![[013_Rhino_DiTWP_Tools_1.png]]
+
+Nach DiTWP_Tools suchen, auswählen und installieren:
+
+![[013_Rhino_DiTWP_Tools_2.png]]
+
+Package Manager und Rhino3D müssen danach geschlossen werden un Rhino3D neu gestartet.
+
+Danach unter Tools / Grasshopper starten:
+
+![[013_Rhino_DiTWP_Tools_3.png]]
+
+In Grasshopper sollte ein neuer Reiter zur Verfügung stehen:
+![[013_Rhino_DiTWP_Tools_4.png]]
+
+
+Beim ersten Platzieren von den Komponenten kann es etwas länger dauern, da die erforderlichen Programmierpakete heruntergeladen und installiert werden:
+
+![[013_Rhino_DiTWP_Tools_5.png]]
+
+## Interessante Add-Ons
+
 ### TT-Toolbox
 https://www.food4rhino.com/en/app/tt-toolbox
 Die Toolbox kann direkt vom Browser installiert werden.
@@ -44,13 +70,10 @@ Bei der Übung [[212_UE]] wird das TT-Toolbox für den Export und Import von Exc
 ### Speckle
 Wir werden die Komponenten von Speckle verwenden, diese werden über die Installation von Connectors installier, siehe [[321_Speckle]].
 
-
 ### Excel+
 
 Als alternative zu TT-Toolbox fürs speichern von Daten in Excel format kann auch Excel+ verwendet werden:
 https://www.food4rhino.com/en/app/excel
-
-## Interessante Add-Ons
 
 ### Lunchbox
 https://www.food4rhino.com/en/app/lunchbox

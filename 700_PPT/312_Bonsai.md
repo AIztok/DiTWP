@@ -47,7 +47,7 @@ ab93093c695b7b3f7f1c2879e524c6ea5edc0718: [[Pasted Image 20250906231307_070.png]
 
 3085d8f38015d369c098dcfda27e5e791dc6f545: [[Pasted Image 20250906231307_158.png]]
 
-e5a4654b2fd40f925f54a5feeca1f8636019cc81: [[Pasted Image 20260819140952_378.png]]
+e5a4654b2fd40f925f54a5feeca1f8636019cc81: [[IFCLite_logo.png]]
 
 %%
 ## Drawing

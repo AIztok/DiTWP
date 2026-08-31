@@ -17,24 +17,6 @@ Grasshopper öffnen unter Werkzeuge/Grasshopper:
 ![[Pasted image 20240511121920.png]]
 
 
-# DiTWP-Tools 
-Für die LVA Digitale Tragwerksplanung wurde ein Paket im Grasshopper erstellt. Hier sind diverse zusätzliche Komponenten die in der LVA genutzt werden zu finden.
-
-Die Installation des Pakets erfolgt über den Paket Manager von Rhino.
-
-In die Befehlleiste schreiben 'PackageManager' bzw. 'PaketManager' (wenn deutsche Sprache in Rhino) + Enter
-
-![[013_GH_PackageManager_1.png]]
-
-Nach "ditwp" suchen und das DiTWP_Tools installieren.
-
-![[013_GH_PackageManager_2.png]]
-
-
-Nach der Installation den Rhino erneut starten und Grasshopper öffnen. 
-In der oberen Zeile sollte jetzt DiTWP_Tools sichtbar sein:
-![[013_GH_PackageManager_3.png]]
-
 # Komponenten
 
 Der visuelle Code im Grasshopper wird erzeugt durch das verbinden von einzelnen Komponenten (input/output).
