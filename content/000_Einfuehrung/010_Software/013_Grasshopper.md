@@ -241,6 +241,65 @@ Der Invert Eingabe-Modifikator funktioniert ähnlich wie ein Nicht-Gatter in der
 ![[013_GH_I-O_invert.png]]
 
 
+
+# Export in Excel 
+
+## Mit TT-Toolbox
+
+Um die Punkte in eine Excel Datei zu exportieren gehen wie folgend vor:
+- `Write to Excel classic` - Komponente aus der TT-Toolbox
+- `Panel` - in den Panels definieren wir den Ort wohin wir die Excel Datei speichern wollen und in welches Arbeitsblatt (z.B. Tabelle 1) - wir nutzen hier `Concatenate` um zwei Strings (Ordner und Dateiname) separat zu definieren und zusammenzuführen
+- `Boolean Toggle` - der boolische Schalter ist nur ein True / False, womit wir definieren ob die Funktion ausgeführt werden soll (True) und ob die existierenden Ergebnisse gelöscht werden sollen (False)
+
+Wenn wir danach ein Panel anschließen, sehen wir, dass in den Zellen A1 bis E1 jetzt werden für die 5 Punkte gespeichert sein sollten - grundsätzlich sollte sich beim Ausführen auch das Excel öffnen. 
+
+![[212_UE_Export_Excel.png]]
+
+Danach speichern wir noch die Querschnittswerte (Breite und Abmessungen der Decke / Wände):
+
+![[212_UE_Export-QS.png]]
+
+Es wird somit eine .xlsx Datei mit folgenden Inhalt gespeichert (Hinweis: manchmal ist es notwendig eine leere Excel Datei mit gleichen Namen vorab zu erstellen):
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRfg0NANCaENZgN0bF01Z3zZYffYSIEtmzoIUA7ZUA6hdTTENOeoz1QWtdLMcHVzA/pubhtml?widget=true&amp;headers=false"></iframe>
+
+
+Die Excel Datei könnte danach beliebig angepasst werden oder mit anderen geteilt werden.
+
+
+## Export in Excel mit Excel+ 
+
+Ein sehr elegantes Tool zum speichern in Excel ist Excel+ (siehe [[012_Rhino_3D#Excel+]]).
+
+![[212_UE_excle_plus.png]]
+
+
+## Export in Excel mit Speckle
+
+Daten können auch mittels Speckle aus dem Modell ins Excel exportiert werden.
+
+Dafür wird im Projekt aus Speckle ein neues Modell erstellt:
+
+![[212_UE_Speckle_new_model.png]]
+
+
+![[212_UE_Speckle_create.png]]
+
+Nachdem das Modell erstellt ist, kann der Link kopiert werden:
+
+![[212_UE_Speckle_link.png]]
+
+
+In Grasshopper können dann die Daten auf Speckle versendet werden:
+
+![[212_UE_Speckle_gh.png]]
+
+Um die Daten dann in Excel zu importieren muss Speckle Add-In in Excel installiert sein (siehe [[321_Speckle#Excel Connector]]):
+
+![[212_Import_excel_speckle.gif]]
+
+
+
 # Weitere Unterlagen
 
 [Grasshopper Primer](https://modelab.gitbooks.io/grasshopper-primer/content/)

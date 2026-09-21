@@ -232,5 +232,59 @@ Somit wird das 3D Modell über Speckle geteilt:
 
 
 
+# Export der Daten des analytischen Modells (Punkte und Linien) auf Speckle 
+
+Alternativ können wir das Modell auch über den Speckle Dienst teilen, der Vorteil wäre:
+- es werden Linien und Punkte gleich exportiert
+- es gibt eine interne Versionierung, also es werden bei mehrfachen Export Daten immer gespeichert und nicht überschrieben
+- die exportierten Daten können im Browser visualisiert werden
+
+Dafür ist es notwendig aber einen Account zu haben (siehe [[321_Speckle#Installieren]]) und bereits installierten Connector für Grasshopper.
+
+## Beim Speckle Dienst Modell erstellen
+
+Schritt 1: New Model - wir erstellen z.B. 212_ue
+Schritt 2: bei 212_ue auf `...` gehen und "Copy link"
+
+![[212_UE_Export_speckle.png]]
+
+Mit "Copy link" wird ein Pfad erstellt, womit wir eine Verbindung zum Modell aufbauen können.
+![[212_UE_speckle_copy_link.png|300]]
+
+## Modell im Grasshopper mit Speckle stream verbinden
+
+Wir verbinden die Punkte und Linien einfach mit einem Datenkontainer (`Data` ) und mit der Komponente `Send` von Speckle, danach Send auswählen:
+
+![[212_UE_speckle_gh_send.png]]
+
+Auf Speckle sollte das Modell danach sichtbar sein:
+
+![[212_UE_speckle_model.png]]
+
+Rechts oben im Browser kann auch der Link kopiert werden und mit anderen geteilt werden, bzw. das Modell kann in Grasshopper eingeladen werden:
+
+> https://app.speckle.systems/projects/eba1405a21/models/84e2ea49f8
+
+![[212_UE_speckle_share_link.png|300]]
+
+<iframe title="Speckle" src="https://app.speckle.systems/projects/eba1405a21/models/84e2ea49f8#embed=%7B%22isEnabled%22%3Atrue%7D" width="600" height="400" frameborder="0"></iframe>
 
 
+## Einlesen Modell aus Speckle
+
+Wir lesen mit der Komponente:
+`Receive` von Speckle
+die Daten die wir vorher exportiert haben ein und teilen aus auf mit `List Item` auf Punkte und Linien
+
+> https://app.speckle.systems/projects/eba1405a21/models/84e2ea49f8
+
+![[212_UE_receive_speckle.png]]
+
+Sollte das Einlesen nicht funktionieren, dann hier die Daten die in ein Panel einkopiert werden können für Punkte, Linien müssen dann manuell erstellt werden:
+```
+{0.15, 0.5, 3.15}
+{0.15, 0.5, 0}
+{0, 0.5, 3.3}
+{6, 0.5, 3.3}
+{0.15, 0.5, 3.3}
+```
