@@ -17,7 +17,7 @@ Bildquelle [Klietsch](https://klietsch.com/?m=page&action=240827)
 
 # Struktur des Formats
 
-Das NC-DSTV-Format ist eine textbasierte, standardisierte Dateibeschreibung, die verschiedene Bearbeitungsanweisungen enthält. Die Daten werden in einer .nc-Datei gespeichert, welche die Bearbeitungsdetails für Maschinen wie CNC-Fräsen, Sägen, Bohrmaschinen, Brennschneidmaschinen und Stanzen enthält.
+Das NC-DSTV-Format ist eine textbasierte, standardisierte Dateibeschreibung, die verschiedene Bearbeitungsanweisungen enthält. Die Daten werden in einer .nc-Datei (oder auch .nc1) gespeichert, welche die Bearbeitungsdetails für Maschinen wie CNC-Fräsen, Sägen, Bohrmaschinen, Brennschneidmaschinen und Stanzen enthält.
 
 Die Datei besteht aus mehreren Blöcken, die jeweils spezifische Informationen zur Bearbeitung eines Stahlteils enthalten. Die häufigsten Abschnitte in einer NC-DSTV-Datei sind:
 
@@ -27,12 +27,21 @@ Die Datei besteht aus mehreren Blöcken, die jeweils spezifische Informationen z
 
 ## Typische Befehle im NC-DSTV-Format
 
-- **BO**: Bohrung
-- **SI**: Sägen
-- **PU**: Stanzen
-- **KO**: Brennschneiden (Konturschneiden)
-- **AK**: Ausschnitte für Schweißnähte
-
+| Block | Richtige Bedeutung            |
+| ----- | ----------------------------- |
+| `ST`  | Start der Teilebeschreibung   |
+| `EN`  | Ende                          |
+| `BO`  | **Bohrliste / Lochliste**     |
+| `SI`  | **Signierungen**              |
+| `AK`  | **Außenkontur**               |
+| `IK`  | **Innenkontur**               |
+| `PU`  | **Pulvern**                   |
+| `KO`  | **Körnen**                    |
+| `SC`  | **Schnitte – Sägen, Scheren** |
+| `TO`  | Toleranzen                    |
+| `UE`  | Überhöhung                    |
+| `PR`  | Profilbeschreibung            |
+| `KA`  | Kantungen                     |
 # Verwendung
 
 Das NC-DSTV-Format ermöglicht es, dass verschiedene Maschinen (CNC-gesteuert) die Datei einlesen und die Stahlteile gemäß den in der Datei enthaltenen Bearbeitungsanweisungen verarbeiten können. Damit wird die Integration zwischen CAD-Systemen und Maschinensteuerungen in der Fertigung erheblich erleichtert.

@@ -7,13 +7,31 @@ tags:
 ---
 # Allgemein
 
-[G-Code](https://en.wikipedia.org/wiki/G-code) ist eine der ältesten und am weitesten verbreiteten Programmiersprachen für die Steuerung von CNC-Maschinen (Computerized Numerical Control). Entwickelt in den 1950er Jahren, wurde G-Code zunächst im Rahmen der frühen Computerisierung von Maschinen in der Fertigungsindustrie eingeführt. Die Norm ISO 6983 standardisierte den G-Code und sorgte dafür, dass er weltweit verwendet werden kann. Er ist nach wie vor das Rückgrat vieler Fertigungs- und Produktionsprozesse.
+[G-Code](https://en.wikipedia.org/wiki/G-code) ist eine der ältesten und am weitesten verbreiteten Programmiersprachen für die Steuerung von CNC-Maschinen (Computer Numerical Control). Entwickelt in den 1950er Jahren, wurde G-Code zunächst im Rahmen der frühen Computerisierung von Maschinen in der Fertigungsindustrie eingeführt. ISO 6983 standardisiert grundlegende Programmformate und Adresswörter für numerisch gesteuerte Maschinen. In der Praxis existieren jedoch unterschiedliche hersteller- und steuerungsspezifische G-Code-Dialekte. Er ist nach wie vor das Rückgrat vieler Fertigungs- und Produktionsprozesse.
 
 Er gibt der Maschine detaillierte Anweisungen, wie sie sich bewegen soll, z.B. wie schnell, in welche Richtung, auf welcher Achse, sowie wie viel Material abgetragen oder extrudiert werden soll. Der Code besteht aus einer Reihe von Befehlen, die von der Maschine interpretiert werden, um präzise Bewegungen und Bearbeitungsschritte auszuführen.
 
 Ein typischer G-Code-Befehl sieht so aus:
 
-- **G1 X10 Y20 Z0 F150**: Dieser Befehl gibt der Maschine die Anweisung, sich linear zu einer bestimmten Position (X=10, Y=20, Z=0) mit einer Vorschubgeschwindigkeit von 150 zu bewegen.
+```
+G21             ; Einheit: mm
+G90             ; absolute Koordinaten
+G1 X10 Y20 Z0 F150 ; Dieser Befehl gibt der Maschine die Anweisung, sich linear zu einer bestimmten Position (X=10, Y=20, Z=0) mit einer Vorschubgeschwindigkeit von 150 zu bewegen.
+```
+
+Der Prozess kann wie folgend beschrieben werden:
+
+CAD-Modell
+    ↓
+CAM / Slicer
+    ↓
+Postprozessor
+    ↓
+G-Code
+    ↓
+Maschinensteuerung
+    ↓
+Maschine
 
 # Wo wird G-Code angewendet?
 
@@ -22,7 +40,7 @@ G-Code findet in vielen Bereichen der modernen Fertigung und Produktion Anwendun
 - **CNC-Maschinen**: In der CNC-Bearbeitung wird G-Code verwendet, um Fräsmaschinen, Drehmaschinen, Bohrmaschinen und andere Werkzeugmaschinen zu steuern. Hier wird der Code genutzt, um Materialien wie Metall, Kunststoff und Holz präzise zu bearbeiten.
 - **3D-Druck**: Im 3D-Druck wird G-Code verwendet, um den Druckkopf des Druckers zu steuern und die Position, Extrusion und Geschwindigkeit des Materials festzulegen. Fast alle FDM-3D-Drucker verwenden G-Code, um Schicht für Schicht ein Objekt zu erstellen.
 - **Laser- und Wasserstrahlschneiden**: G-Code steuert Maschinen, die Material durch Laserstrahlen oder Hochdruck-Wasserstrahlen schneiden. Auch hier sind Präzision und wiederholbare Genauigkeit von größter Bedeutung.
-- **Roboterarme und automatisierte Systeme**: In der Automatisierung kann G-Code verwendet werden, um Bewegungen von Roboterarmen oder anderen automatisierten Systemen zu steuern, die in der Fertigung oder Verpackung arbeiten.
+- **Roboterarme und automatisierte Systeme**: G-Code kann auch bei bestimmten robotischen und automatisierten Fertigungssystemen eingesetzt werden.
 
 # Beispiel eines einfachen G-Codes
 
@@ -41,6 +59,7 @@ G0 Z10     ; Hebe das Werkzeug auf Z=10 mm
 M30        ; Programm beenden
 
 ```
+
 
 # Beispiel des G-Codes 
 

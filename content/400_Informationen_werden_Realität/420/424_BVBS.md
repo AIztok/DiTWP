@@ -21,7 +21,7 @@ Das BVBS-Format wurde entwickelt, um die Kommunikation und den Datenaustausch zw
 ### Technische Details
 
 - **Dateiformat:** Das BVBS-Format ist in der Regel eine Textdatei mit der Endung `.abs` oder `.bvbs`.
-- **Struktur:** Die Datei ist zeilenweise aufgebaut, wobei jede Zeile eine bestimmte Information enthält, wie zum Beispiel die Position des Stabes, dessen Länge, Durchmesser und die Biegeform.
+- **Struktur:** Die Datei ist zeilenweise aufgebaut. Eine Zeile bzw. ein Datensatz beschreibt typischerweise eine Bewehrungsposition und besteht wiederum aus mehreren Blöcken, wie zum Beispiel die Position des Stabes, dessen Länge, Durchmesser und die Biegeform.
 - **Einheiten:** Üblicherweise sind die Abmessungen in Millimetern angegeben.
 - **Verwendung:** Das Format wird hauptsächlich für den Austausch von Daten für Biegemaschinen verwendet, die Betonstahl (Bewehrungsstahl) biegen und schneiden.
 
