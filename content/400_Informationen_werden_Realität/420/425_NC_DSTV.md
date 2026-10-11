@@ -51,3 +51,12 @@ Das NC-DSTV-Format ermöglicht es, dass verschiedene Maschinen (CNC-gesteuert) d
 - **Interoperabilität**: Unabhängig vom Maschinenhersteller wird das Format von vielen Software- und Maschinensystemen unterstützt.
 - **Automatisierung**: Reduziert die manuelle Programmierung von Maschinen durch die automatische Übertragung von Daten aus CAD-Systemen.
 - **Standardisierung**: Eine einheitliche Beschreibung für die Herstellung von Stahlbauteilen erleichtert die Zusammenarbeit und verringert Fehler.
+
+
+# Viewer und Beispieldateien
+
+Online viewer (hier sind auch die Beispieldateien verfügbar):
+https://nc-formats.streamlit.app/
+
+https://www.nc1-viewer.com/
+

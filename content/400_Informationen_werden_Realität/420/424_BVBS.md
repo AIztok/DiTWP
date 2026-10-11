@@ -54,6 +54,11 @@ https://buildingpoint-scandinavia.com/blog/free-download-of-bvbs-viewer
 ![[424_BVBS_gif.gif]]
 
 
+# Online Viewer
+
+Online viewer (hier sind auch die Beispieldateien verfügbar):
+https://nc-formats.streamlit.app/
+
 # Beispiel
 
 Folgend wir dargestellt, wie für eine reale Bewehrungsposition das erstellte .abs gem. BVBS ausschaut.
